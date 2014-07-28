@@ -2,6 +2,7 @@
 layout: page
 permalink: '/policies/'
 title: Policies
+order: 10
 ...
 
 ### Assignments
