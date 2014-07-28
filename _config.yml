@@ -10,9 +10,11 @@ permalink: pretty
 # Course information
 title: "Clio 3: Programming in History/New Media"
 course_catalog: http://historyarthistory.gmu.edu/courses/2544/course_sections/16549
+course_credithours: 3
 course_hashtag: clio3
 course_meetingtime: "Wed., 7:20&ndash;10:00 p.m."
 course_number: "HIST 698"
+course_prerequisites: "HIST 696, 697"
 course_room: "Research Hall 402"
 course_semester: "Fall 2014"
 instructor_email: lmullen@gmu.edu

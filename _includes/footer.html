@@ -16,6 +16,8 @@
         <span class="separator">|</span> {{ site.course_semester }}</li>
         <li>Meets in {{ site.course_room }}</li>
         <li>Meets on {{ site.course_meetingtime }}</li>
+        <li>Credit hours: {{ site.course_credithours }}</li>
+        <li>Prerequisites: {{ site.course_prerequisites }}</li>
         {% if site.course_hashtag %}<li>
         Course hashtag: <a href="https://www.twitter.com/hashtag/{{site.course_hashtag}}">#{{site.course_hashtag}}</a>
         </li>{% endif %}
