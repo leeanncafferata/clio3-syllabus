@@ -4,8 +4,6 @@ title: About
 order: 1
 ...
 
-***DRAFT SYLLABUS***
-
 ## Course description
 
 This class will teach you how to use computer programming for research

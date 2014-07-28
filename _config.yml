@@ -7,6 +7,9 @@ destination: public
 markdown: kramdown
 permalink: pretty
 
+# Draft or not?
+draft: true
+
 # Course information
 title: "Clio 3: Programming in History/New Media"
 course_catalog: http://historyarthistory.gmu.edu/courses/2544/course_sections/16549

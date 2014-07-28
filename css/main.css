@@ -413,3 +413,11 @@ a:visited { color: #205caa; }
 .separator {
   margin: 0 0.5em 0 0.5em
 }
+
+.draft-warning {
+  padding: 1em;
+  border: 2px solid black;
+  background-color: #ccc;
+  margin: 0 2em 2em 2em;
+}
+
