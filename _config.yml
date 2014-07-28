@@ -1,13 +1,25 @@
 # Site settings
-title: "Clio 3: Programming in History/New Media (HIST 698, fall 2014)"
-email: lincoln@lincolnmullen.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: ""
+baseurl: "/courses/clio3.2014"
 url: "http://lincolnmullen.com/courses/clio3.2014"
-twitter_username: lincolnmullen
-# github_username:  jekyll
 destination: public
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Course information
+title: "Clio 3: Programming in History/New Media"
+course_catalog: http://historyarthistory.gmu.edu/courses/2544/course_sections/16549
+course_hashtag: clio3
+course_meetingtime: "Wed., 7:20&ndash;10:00 p.m."
+course_number: "HIST 698"
+course_room: "Research Hall 402"
+course_semester: "Fall 2014"
+instructor_email: lmullen@gmu.edu
+instructor_name: Lincoln Mullen
+instructor_office: "Research Hall 457"
+instructor_officehours: TBD
+instructor_twitter: lincolnmullen
+instructor_website: http://lincolnmullen.com
+
+course_description: "An introduction to programming for historians."
