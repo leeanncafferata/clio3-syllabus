@@ -1,0 +1,13 @@
+# Site settings
+title: "Clio 3: Programming in History/New Media (HIST 698, fall 2014)"
+email: lincoln@lincolnmullen.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+baseurl: ""
+url: "http://lincolnmullen.com/courses/clio3.2014"
+twitter_username: lincolnmullen
+# github_username:  jekyll
+destination: public
+
+# Build settings
+markdown: kramdown
+permalink: pretty
