@@ -1,6 +1,7 @@
 # Site settings
 baseurl: "/courses/clio3.2014"
 url: "http://lincolnmullen.com/courses/clio3.2014"
+source: source
 destination: public
 
 # Build settings
