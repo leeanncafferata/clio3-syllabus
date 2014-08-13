@@ -17,6 +17,10 @@ adding this course:
 
 ### Assignments
 
+**N.B.** Please plan on doing all the readings, working through all
+exercises, completing any assignments, and installing necessary software
+before the start of each class.
+
 I may change due dates or assignments. I will always give you plenty of
 notice of changes, which will always be intended for your benefit.
 Students must satisfactorily complete all assignments (including
