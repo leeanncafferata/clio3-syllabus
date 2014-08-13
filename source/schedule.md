@@ -7,33 +7,162 @@ order: 2
 
 ## Aug. 27: Unix as a Way of Life
 
+### Goal
+
+### Reading
+
+### Exercises
+
+### Due
+
 ## Sept. 3: Version Control / Introduction to JavaScript
+
+### Goal
+
+### Reading
+
+### Exercises
+
+### Due
+
 
 ## Sept. 10: Flow Control and Functions in JavaScript
 
+### Goal
+
+### Reading
+
+### Exercises
+
+### Due
+
+
 ## Sept. 17: Data Structures in JavaScript
+
+### Goal
+
+### Reading
+
+### Exercises
+
+### Due
+
 
 ## Sept. 24: Functional Programming in JavaScript
 
+### Goal
+
+### Reading
+
+### Exercises
+
+### Due
+
+
 ## Oct. 1: Object Oriented Programming in JavaScript
+
+### Goal
+
+### Reading
+
+### Exercises
+
+### Due
+
 
 ## Oct. 8: Introduction to R / Grammar of Graphics in R
 
+### Goal
+
+### Reading
+
+### Exercises
+
+### Due
+
+
 ## Oct. 15: Manipulating Data in R
+
+### Goal
+
+### Reading
+
+### Exercises
+
+### Due
+
 
 ## Oct. 22: Mapping in R
 
+### Goal
+
+### Reading
+
+### Exercises
+
+### Due
+
+
 ## Oct. 29: Text Mining in R
 
+### Goal
+
+### Reading
+
+Additional sources:
+
+- Matthew Jockers, *Macroanalysis*
+
+### Exercises
+
+### Due
+
+
 ## Nov. 4: Network Analysis in R
+
+### Goal
+
+### Reading
+
+### Exercises
+
+### Due
+
 
 http://sna.stanford.edu/rlabs.php
 
 ## Nov. 12: D3.js Concepts
 
+### Goal
+
+### Reading
+
+### Exercises
+
+### Due
+
+
 ## Nov. 19: D3.js Applications
 
+### Goal
+
+### Reading
+
+### Exercises
+
+### Due
+
+
 ## Dec. 3: Workshop day
+
+### Goal
+
+### Reading
+
+### Exercises
+
+### Due
+
 
 ### Reading
 
@@ -54,19 +183,16 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 ## Dec. 15: No class meeting
 
+Exam week, and thus no class meeting. 
+
+### Due
+
 - Final projects due
 
 <!--
 Week 1
 
 :   Unix
-
-:   Read Mike Gancarz, *Linux and the Unix Philosophy*.
-
-:   Read Jerry D. Peek, *Learning the Unix Operating System*, chs. 1,
-    3--5.
-
-:   Experiment with your terminal, Bash, and Unix conventions.
 
 Week 2
 
