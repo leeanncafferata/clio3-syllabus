@@ -5,35 +5,56 @@ permalink: /schedule/
 order: 2
 ---
 
-## August 27
+## Aug. 27: Unix as a Way of Life
 
-## September 3
+## Sept. 3: Version Control / Introduction to JavaScript
 
-## September 10
+## Sept. 10: Flow Control and Functions in JavaScript
 
-## September 17
+## Sept. 17: Data Structures in JavaScript
 
-## September 24
+## Sept. 24: Functional Programming in JavaScript
 
-## October 1
+## Oct. 1: Object Oriented Programming in JavaScript
 
-## October 8
+## Oct. 8: Introduction to R / Grammar of Graphics in R
 
-## October 15
+## Oct. 15: Manipulating Data in R
 
-## October 22
+## Oct. 22: Mapping in R
 
-## October 29
+## Oct. 29: Text Mining in R
 
-## November 4
+## Nov. 4: Network Analysis in R
 
-## November 12
+http://sna.stanford.edu/rlabs.php
 
-## November 19
+## Nov. 12: D3.js Concepts
 
-## December 3 (last day of instruction)
+## Nov. 19: D3.js Applications
 
-## December 15
+## Dec. 3: Workshop day
+
+### Reading
+
+- Item one
+- Item two
+
+### Doing
+
+- Item three
+- Item four
+
+### Notes
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+## Dec. 15: No class meeting
+
+- Final projects due
 
 <!--
 Week 1
@@ -79,7 +100,7 @@ Week 4
 :   Mapping in R
 
 :   Read James Cheshire, "[Introduction to Spatial Data and ggplot2][],"
-    Spatial.ly, December 9, 2013.
+    Spatial.ly, Dec. 9, 2013.
 
 :   Read David Kahle and Hadley Wickham, "[ggmap: Spatial Visualization
     with ggplot2][]," *The R Journal* 5, no. 1 (June 2013): 144--61.
@@ -95,14 +116,14 @@ Week 5
     Software* (forthcoming).
 
 :   Read Hadley Wickham, "[Reshaping Data in R][]," *Statistical
-    Computing and Graphics* 16, no. 2 (December 2005): 5--8.
+    Computing and Graphics* 16, no. 2 (Dec. 2005): 5--8.
 
 :   Read Hadley Wickham, "[The Split-Combine-Apply Strategy for Data
-    Analysis][]," *Journal of Statistical Software* 40, no. 1 (April
+    Analysis][]," *Journal of Statistical Software* 40, no. 1 (Apr.
     2011): 1--29.
 
 :   Watch Hadley Wickham, "[Tidy Data and Tidy Tools][]," NYC Open
-    Statistical Computing Meetup, December 2011.
+    Statistical Computing Meetup, Dec. 2011.
 
 :   Read Seth van Hooland, Ruben Verborgh, and Max De Wilde, "[Cleaning
     Data with OpenRefine][]," *The Programming Historian 2*.
@@ -148,7 +169,7 @@ Week 10
 
 :   Read David A. Black, *The Well-Grounded Rubyist*, ch. 11.
 
-:   Read Jason Heppler, "[Better Web Scraping with Nokogiri][]," October
+:   Read Jason Heppler, "[Better Web Scraping with Nokogiri][]," Oct.
     12, 2012. You may find Jeri Wieringa, "[Intro to Beautiful Soup][],"
     *The Programming Historian 2*, helpful on the same research
     technique using the equivalent library for Python.
