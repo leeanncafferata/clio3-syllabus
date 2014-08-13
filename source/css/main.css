@@ -418,6 +418,11 @@ a:visited { color: #205caa; }
   padding: 1em;
   border: 2px solid black;
   background-color: #ccc;
-  margin: 0 2em 2em 2em;
+  margin: 0 2em 4em 2em;
 }
 
+.post-content h2 {
+  border-top: #ccc solid 1px;
+  padding-top: 1rem;
+  margin-top: 5rem;
+}
