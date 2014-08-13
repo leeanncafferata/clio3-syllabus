@@ -1,9 +1,19 @@
 ---
 layout: page
+order: 10
 permalink: '/policies/'
 title: Policies
-order: 10
 ...
+
+### Dates for Dropping and Adding
+
+Please note these dates from the [academic calendar][] for dropping and
+adding this course:
+
+-   Last Day to Add: September 2, 2014
+-   Last Day to Drop: September 26, 2014
+-   Selective Withdrawal Period: September 29 - October 17, 2014
+    (undergraduates only)
 
 ### Assignments
 
@@ -49,11 +59,10 @@ step, e.g., from A to A-, from A- to B+, and so on.
 
 ### Accommodations
 
-If you have a documented learning disability or other condition that may
-affect academic performance, please talk with me about an accommodation
-that will help you. You will also need to put your documentation on file
-with the [Office of Disability Services][] (SUB I, Room 4205; 993-2474)
-to determine the accommodations you need.
+If you are a student with a disability and you need academic
+accommodations, please see me and contact the Office of Disability
+Services at 703.993.2474 or <http://ods.gmu.edu>. All academic
+accommodations must be arranged through that office.
 
 ### General policies
 
@@ -71,7 +80,7 @@ International License][]. You are free to use or modify this syllabus
 for any purpose, provided that you attribute it to the author,
 preferably at the course website.
 
-  [Office of Disability Services]: http://ods.gmu.edu
+  [academic calendar]: http://registrar.gmu.edu/calendars/fall-2014/
   [George Mason University catalog]: http://catalog.gmu.edu/
   [statement on diversity]: http://ctfe.gmu.edu/professional-development/mason-diversity-statement/
   [Creative Commons Attribution 4.0 International License]: http://creativecommons.org/licenses/by/4.0/
