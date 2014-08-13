@@ -6,6 +6,7 @@ destination: public
 # Build settings
 markdown: kramdown
 permalink: pretty
+lsi: false
 
 # Draft or not?
 draft: true
@@ -26,5 +27,4 @@ instructor_office: "Research Hall 457"
 instructor_officehours: TBD
 instructor_twitter: lincolnmullen
 instructor_website: http://lincolnmullen.com
-
 course_description: "An introduction to programming for historians."
