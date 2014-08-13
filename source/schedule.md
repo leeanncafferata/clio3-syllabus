@@ -9,28 +9,43 @@ title: Schedule
 
 ### Goal
 
+This week you will learn to interact with your computer and to run
+programs through the command-line interface. You will also learn a
+philosophy for writing programs.
+
 ### Reading
 
--   Mike Gancarz, *Linux and the Unix Philosophy*
--   Jerry D. Peek, *Learning the Unix Operating System*, chs. 1, 3--5
+-   Mike Gancarz, *[Linux and the Unix Philosophy][]*, chs. 1--8,
+    focusing on the ten tenets.
+-   William E. Shotts Jr., *[The Linux Command Line: A Complete
+    Introduction][]*. Most of this book is a reference source, but
+    familiarize yourself at a minimum with chapters 2, 4, 5, 6, 10, 11.
+    Nearly all of this will apply to the terminal in Mac OS X.
 
 ### Exercises
 
--   Experiment with the terminal, Bash or Zsh, and Unix conventions
-
-### Due
+As you read Shotts, try out all the Unix style commands in your
+terminal. You should be prepared to navigate the file system and run
+commands through the shell.
 
 Before class, do your best to get the following installed:
 
--   Google Chrome
--   VirtualBox
--   Vagrant
--   Git
--   Node.js
--   A text editor of your choice: Vim, Emacs, TextWrangler, Atom are all
-    solid choices
--   R
--   R Studio
+-   A text editor of your choice: [Sublime Text][], [TextWrangler][],
+    [Atom][], and [Vim][] are all solid choices.
+-   [Google Chrome][]
+-   [VirtualBox][]
+-   [Vagrant][]
+-   [Homebrew][] if you're on a Mac
+-   [Git][] (through Homebrew on a Mac)
+-   [Node.js][] (through Homebrew on a Mac)
+-   [R language][]
+-   [R Studio Desktop][]
+
+If you are on a Mac, you should install [Homebrew][] and any necessary
+dependencies as you go along. If you are on some kind of Linux machine,
+then probably everything you need is in your package manager. If you are
+on a Windows PC, you should install [Ubuntu 14.04 LTS][] inside Virtual
+Box using [Vagrant][].
 
 ## Sept. 3: Version Control / Introduction to JavaScript
 
@@ -87,6 +102,9 @@ JavaScript.
 ### Exercises
 
 ### Due
+
+-   TK Language report
+-   TK Technique report
 
 ## Oct. 1: Object Oriented Programming in JavaScript
 
@@ -230,6 +248,8 @@ Additional sources:
 
 ### Due
 
+## Nov. 26: No class
+
 ## Dec. 3: Workshop day
 
 ### Goal
@@ -248,6 +268,22 @@ Exam week, and thus no class meeting.
 
 -   Final projects due
 
+  [Linux and the Unix Philosophy]: http://magik.gmu.edu/cgi-bin/Pwebrecon.cgi?BBID=3366870
+  [The Linux Command Line: A Complete Introduction]: http://linuxcommand.org/tlcl.php
+  [The Cathedral and the Bazaar]: http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/
+  [Sublime Text]: http://www.sublimetext.com/
+  [TextWrangler]: http://www.barebones.com/products/textwrangler/
+  [Atom]: https://atom.io/
+  [Vim]: http://www.vim.org/
+  [Google Chrome]: https://www.google.com/intl/en-US/chrome/browser/
+  [VirtualBox]: https://www.virtualbox.org/
+  [Vagrant]: http://www.vagrantup.com/
+  [Homebrew]: http://brew.sh/
+  [Git]: http://git-scm.com/
+  [Node.js]: http://nodejs.org/
+  [R language]: http://www.r-project.org/
+  [R Studio Desktop]: http://www.rstudio.com/products/rstudio/
+  [Ubuntu 14.04 LTS]: http://www.ubuntu.com/download/desktop
   [documentation for GitHub]: https://help.github.com/
   [their tutorials]: http://guides.github.com/
   [Pro Git]: http://git-scm.com/book
