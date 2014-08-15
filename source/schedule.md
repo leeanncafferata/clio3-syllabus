@@ -47,31 +47,35 @@ then probably everything you need is in your package manager. If you are
 on a Windows PC, you should install [Ubuntu 14.04 LTS][] inside Virtual
 Box using [Vagrant][].
 
-## Sept. 3: Version Control / Introduction to JavaScript
+## Sept. 3: Reproducible Research and Version Control
 
 ### Goal
 
 Learning version control will let you contribute to projects and
-distribute your code. In class we will do our first introduction to
-JavaScript.
+distribute your code, and most importantly reproduce your own results.
+(We will end class with an introduction to JavaScript.)
 
 ### Reading
 
--   [documentation for GitHub][] and [their tutorials][]
--   Scott Chacon, *[Pro Git][]*, especially chs. 1--3, 5, for reference.
-
--   William J. Turkel and Adam Crymble, "[What to Do If You Get
-    Stuck][]," *The Programming Historian 2*.
+-   [Basic Git][].
+-   [Documentation for GitHub][] and [their tutorials][].
+-   Look at Scott Chacon, *[Pro Git][]*, especially chs. 1--3, 5, for
+    reference.
+-   Read Karl Broman's [lectures about reproducible research][]:
+    [introduction][]; [command line][]; [version control][].
 
 ### Exercises
 
--   Try [GitHub's online, interactive tutorial][] for Git. (This is
-    probably the most fun way to learn the basics of Git.)
--   Sign up for GitHub
--   At least 1 day before class, submit a pull request (or as many as
-    you need) to add your name and link to GitHub and personal website
-    to the course blog. Also add your name and topics for the language
-    choice and the additional topics.
+-   Work through [GitHub's online, interactive tutorial][] for Git.
+-   Sign up for [GitHub][].
+-   At least one day before class, submit a pull request (or as many as
+    you need to) to the [repository for this syllabus][]. The pull
+    request should modify the list of participants to add your name with
+    a link to your personal website, as well as your GitHub username and
+    a link to your GitHub user profile. Feel free to include your
+    Twitter username and link if you like. (A guide to [Markdown][] if
+    you need it.) Also add your name and topics for the language report
+    and the additional techniques report.
 
 ## Sept. 10: Flow Control and Functions in JavaScript
 
@@ -270,7 +274,6 @@ Exam week, and thus no class meeting.
 
   [Linux and the Unix Philosophy]: http://magik.gmu.edu/cgi-bin/Pwebrecon.cgi?BBID=3366870
   [The Linux Command Line: A Complete Introduction]: http://linuxcommand.org/tlcl.php
-  [The Cathedral and the Bazaar]: http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/
   [Sublime Text]: http://www.sublimetext.com/
   [TextWrangler]: http://www.barebones.com/products/textwrangler/
   [Atom]: https://atom.io/
@@ -284,11 +287,18 @@ Exam week, and thus no class meeting.
   [R language]: http://www.r-project.org/
   [R Studio Desktop]: http://www.rstudio.com/products/rstudio/
   [Ubuntu 14.04 LTS]: http://www.ubuntu.com/download/desktop
-  [documentation for GitHub]: https://help.github.com/
+  [Basic Git]: http://gitref.org/basic/
+  [Documentation for GitHub]: https://help.github.com/
   [their tutorials]: http://guides.github.com/
   [Pro Git]: http://git-scm.com/book
-  [What to Do If You Get Stuck]: http://programminghistorian.org/lessons/troubleshooting
+  [lectures about reproducible research]: http://kbroman.org/Tools4RR/pages/schedule.html
+  [introduction]: http://kbroman.org/Tools4RR/assets/lectures/01_intro_withnotes.pdf
+  [command line]: http://kbroman.org/Tools4RR/assets/lectures/02_unix_withnotes.pdf
+  [version control]: http://kbroman.org/Tools4RR/assets/lectures/04_git_withnotes.pdf
   [GitHub's online, interactive tutorial]: http://try.github.io/
+  [GitHub]: https://github.com/
+  [repository for this syllabus]: https://github.com/lmullen/clio3-syllabus
+  [Markdown]: https://help.github.com/articles/markdown-basics
   [Google Developers' introduction to R]: http://www.youtube.com/watch?v=iffR3fWv4xw&list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP
   [ggplot2 documentation]: http://docs.ggplot2.org/current/
   [Tidy Data]: http://vita.had.co.nz/papers/tidy-data.pdf
