@@ -47,7 +47,7 @@ then probably everything you need is in your package manager. If you are
 on a Windows PC, you should install [Ubuntu 14.04 LTS][] inside Virtual
 Box using [Vagrant][].
 
-## Sept. 3: Reproducible Research and Version Control
+## Sept. 3: Version Control and Reproducible Research
 
 ### Goal
 
@@ -82,6 +82,8 @@ distribute your code, and most importantly reproduce your own results.
 ### Goal
 
 ### Reading
+
+Eloquent JavaScript introduction; ch 10
 
 ### Exercises
 

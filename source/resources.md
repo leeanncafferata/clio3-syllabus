@@ -19,6 +19,8 @@ to edit this page to add your own resources.
 
 ## JavaScript
 
+-   Marijn Haverbeke, *[Eloquent JavaScript: A Modern Introduction to 
+    Programming](http://eloquentjavascript.net/)*, 2nd ed.
 -   Douglass Crockford, *Javascript: The Good Parts*.
 
 ## Open Source
