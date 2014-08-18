@@ -48,14 +48,15 @@ the *Programming Historian* to go through its peer-review process.
 
 ### Course project and presentation
 
-Over the course of the semester you will create some digital history 
-project using computer programming. (This project should be roughly the 
-equivalent of a seminar paper's worth of work.) This project should be 
-chosen in consultation with me, It might take any number of forms: a 
-library or plugin, a research paper backed by programming methods, a 
-visualization, etc. You will give a presentation about this project at 
-our last class meeting, and the finished project will be due a week 
-later.
+Over the course of the semester you will create some digital history
+project using computer programming. (This project should be roughly the
+equivalent of a seminar paper's worth of work.) This project should be
+chosen in consultation with me, It might take any number of forms: a
+library or plugin, a research paper backed by programming methods, a
+visualization, etc. During the semester you will create a brief proposal
+and set of specifications for the project. You will give a presentation
+about this project at our last class meeting, and the finished project
+will be due a week later.
 
 ## Evaluation
 
