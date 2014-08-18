@@ -4,7 +4,7 @@ order: 1
 title: About
 ...
 
-## Course description
+### Course description
 
 This class will introduce you to the rudiments of programming languages;
 even more, the class will teach you how to learn how to learn whatever
@@ -21,7 +21,7 @@ useful for many applications) and [R][] (a statistical programming
 language well-suited to scholarly purposes), but you are encouraged to
 learn any language you like for the final project.
 
-## Learning goals
+### Learning goals
 
 After taking this course, you will
 
@@ -36,7 +36,7 @@ After taking this course, you will
     to teach yourself programming techniques as they become useful to
     you.
 
-## How to succeed at this course
+### How to succeed at this course
 
 This course does not assume any prior experience with computer
 programming. (However the course does assume that you have taken George
@@ -61,7 +61,7 @@ how to succeed at this course:
     you can use, but you are always welcome to substitute sources that
     are relevant to your research.
 
-## A few notes
+### A few notes
 
 This course assumes that you are programming in a Unix-like environment,
 namely some Linux distribution running natively or in a virtual machine,

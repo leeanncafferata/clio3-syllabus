@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 2
+order: 3
 permalink: '/schedule/'
 title: Schedule
 ...
@@ -299,22 +299,11 @@ topics relevant to your research.
 
 Thanksgiving break.
 
-## Dec. 3: Workshop day / TBD
+## Dec. 3: Project Presentations
 
-This week we will work collaboratively on the projects for the course.
-We may also cover additional topics such as web applications and
-frameworks (Ruby on Rails, Sinatra, Node.js); programming practices such
-as debugging, refactoring, and testing; other programming languages
-(Python, Ruby, PHP); basic statistics of use to historians; or other
-topics relevant to your research.
+Present in class.
 
-## Dec. 15: No class
-
-Exam week, and thus no class meeting.
-
-### Due
-
--   Final projects due
+-   Final projects due December 10
 
   [Linux and the Unix Philosophy]: http://magik.gmu.edu/cgi-bin/Pwebrecon.cgi?BBID=3366870
   [The Linux Command Line: A Complete Introduction]: http://linuxcommand.org/tlcl.php

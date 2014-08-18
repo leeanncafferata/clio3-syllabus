@@ -436,3 +436,8 @@ a:visited { color: #205caa; }
   -ms-user-select: none;
   user-select: none;
 }  
+
+th, td {
+  padding: 0.25rem 2rem 0.25rem 2rem;
+  text-align: left;
+}
