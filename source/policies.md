@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 10
+order: 6
 permalink: '/policies/'
 title: Policies
 ...

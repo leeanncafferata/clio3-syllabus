@@ -1,19 +1,15 @@
 ---
 layout: page
-order: 3
+order: 4
 permalink: '/schedule/'
 title: Schedule
 ...
 
 ## Aug. 27: Unix as a Way of Life
 
-### Goal
-
-This week you will learn to interact with your computer and to run
-programs through the command-line interface. You will also learn a
-philosophy for writing programs.
-
-We will also make revisions to the syllabus as needed.
+How to interact with your computer and to run programs through the
+command-line interface. You will also learn a philosophy for writing
+programs.
 
 ### Reading
 
@@ -21,14 +17,14 @@ We will also make revisions to the syllabus as needed.
     focusing on the ten tenets.
 -   William E. Shotts Jr., *[The Linux Command Line: A Complete
     Introduction][]*. Most of this book is a reference source, but
-    familiarize yourself at a minimum with chapters 2, 4, 5, 6, 10, 11.
-    Nearly all of this will apply to the terminal in Mac OS X.
+    familiarize yourself at a minimum with chapters 2 (navigation), 4
+    (file manipulation), 5 (commands), 6 (redirection), 10 (processes),
+    11 (environment). Nearly all of what Shotts writes about Linux will
+    apply to the Unix terminal in Mac OS X.
 
 ### Exercises
 
-As you read Shotts, try out all the Unix style commands in your
-terminal. You should be prepared to navigate the file system and run
-commands through the shell.
+Try out all the Unix style commands in your terminal.
 
 Before class, do your best to get the following installed:
 
@@ -37,9 +33,11 @@ Before class, do your best to get the following installed:
 -   [Google Chrome][]
 -   [VirtualBox][]
 -   [Vagrant][]
--   [Homebrew][] if you're on a Mac
--   [Git][] (through Homebrew on a Mac)
--   [Node.js][] (through Homebrew on a Mac)
+-   [Homebrew][] (if you're on a Mac)
+-   [Git][] (through Homebrew on a Mac; through the package manager on
+    Linux)
+-   [Node.js][] (through Homebrew on a Mac; through a package manager on
+    Linux)
 -   [R language][]
 -   [R Studio Desktop][]
 
@@ -47,41 +45,50 @@ If you are on a Mac, you should install [Homebrew][] and any necessary
 dependencies as you go along. If you are on some kind of Linux machine,
 then probably everything you need is in your package manager. If you are
 on a Windows PC, you should install [Ubuntu 14.04 LTS][] inside Virtual
-Box using [Vagrant][].
+Box using [Vagrant][]. Follow [this tutorial on Vagrant][], substituting
+`ubuntu/trusty64` for `hashicorp/precise32`.
 
 ## Sept. 3: Version Control and Reproducible Research
 
-### Goal
-
-Learning version control will let you contribute to projects and
-distribute your code, and most importantly reproduce your own results.
-(We will end class with an introduction to JavaScript.)
+Version control lets you contribute to projects and distribute your
+code. [GNU Make][] helps automate and reproduce your results.
 
 ### Reading
 
--   [Basic Git][].
--   [Documentation for GitHub][] and [their tutorials][].
+-   Work through [GitHub's interactive tutorial][] for Git.
+-   GitRef on [basics][] and [branching and merging][]; GitHub's
+    tutorial on [pull requests][] ([video][]).
 -   Look at Scott Chacon, *[Pro Git][]*, especially chs. 1--3, 5, for
     reference.
 -   Read Karl Broman's [lectures about reproducible research][]:
     [introduction][]; [command line][]; [version control][].
+-   Read Mike Bostock, "[Why Use Make][]".
+-   Read the documentation for [GNU Make][].
 
 ### Exercises
 
--   Work through [GitHub's online, interactive tutorial][] for Git.
--   Sign up for [GitHub][].
--   At least one day before class, submit a pull request (or as many as
-    you need to) to the [repository for this syllabus][]. The pull
-    request should modify the list of participants to add your name with
-    a link to your personal website, as well as your GitHub username and
-    a link to your GitHub user profile. Feel free to include your
-    Twitter username and link if you like. (A guide to [Markdown][] if
-    you need it.) Also add your name and topics for the language report
-    and the additional techniques report.
+-   At least one day before class, submit a pull request to the
+    [repository for this syllabus][]. The pull request should modify the
+    list of participants (`source/participants.md`) to add your name
+    with a link to your personal website, as well as your GitHub user
+    name and a link to your GitHub user profile. Feel free to include
+    your Twitter user name and link if you like. (A guide to
+    [Markdown][] if you need it.) Also add your name and the topic of
+    your tutorial to the schedule (`source/schedule.md`).
+-   Create a minimal Makefile. This Makefile should take a text file
+    (provided by you) and find and replace words of your choosing to a
+    new text file. (Hint:
+    `sed 's/foo/bar/g' input-file.txt > output-file.txt` replaces all
+    instances of `foo` with `bar` and redirects standard out to a file.)
+    The Makefile should also put the time stamp for when the output file
+    was generated at the bottom of the file. (Hint: in your shell the
+    `>>` operator appends to a file; there is also a command to get the
+    current time.) Can you rewrite the Makefile so that it uses rules?
+    So that it uses special targets? So that it works on several text
+    files at once? On an arbitrary number of files? Post your Makefile
+    and input text files to GitHub.
 
 ## Sept. 10: Flow Control and Functions in JavaScript
-
-### Goal
 
 ### Reading
 
@@ -90,27 +97,14 @@ Eloquent JavaScript introduction; ch 1; ch2; ch3
 ### Exercises
 
 Come to class with all the exercises from these chapters solved as a
-separate JavaScript file.
-
-Note that if you've installed node.js, you should be able to run scripts
-from the command line. Suppose you have a file `hello.js` that contains
-this one line:
-
-{% highlight javascript linenos %} 
-console.log("Hello world.");
-{% endhighlight %}
-
-You can run this file with the command `node hello.js`.
-
-You should understand how to use conditionals, loops, functions. Do your
-best to understand scope and closures, as well as recursion. We will
-work with these in class with some real historical data.
+separate JavaScript file. You should understand how to use conditionals,
+loops, functions. Do your best to understand scope and closures, as well
+as recursion. We will work with these in class with some real historical
+data.
 
 ### Due
 
 ## Sept. 17: Data Structures in JavaScript
-
-### Goal
 
 ### Reading
 
@@ -128,8 +122,6 @@ Next find some source from your own research not available as an API.
 ### Due
 
 ## Sept. 24: Functional Programming in JavaScript; DOM Manipulation
-
-### Goal
 
 ### Reading
 
@@ -151,8 +143,6 @@ programming.
 -   TK Technique report
 
 ## Oct. 1: Introduction to R / Grammar of Graphics in R
-
-### Goal
 
 ### Reading
 
@@ -177,8 +167,6 @@ programming.
 ### Due
 
 ## Oct. 8: Manipulating Data in R
-
-### Goal
 
 ### Reading
 
@@ -208,8 +196,6 @@ programming.
 
 ## Oct. 15: Mapping in R
 
-### Goal
-
 ### Reading
 
 -   Applied Spatial Data Analysis in R
@@ -230,8 +216,6 @@ programming.
 
 ## Oct. 22: Text Mining in R
 
-### Goal
-
 ### Reading
 
 Additional sources:
@@ -244,8 +228,6 @@ Additional sources:
 
 ## Oct. 29: Network Analysis in R
 
-### Goal
-
 ### Reading
 
 ### Exercises
@@ -255,8 +237,6 @@ Additional sources:
 -   <http://sna.stanford.edu/rlabs.php>
 
 ## Nov. 5: D3.js Concepts
-
-### Goal
 
 ### Reading
 
@@ -273,8 +253,6 @@ Additional sources:
 ### Due
 
 ## Nov. 12: D3.js Applications
-
-### Goal
 
 ### Reading
 
@@ -320,16 +298,19 @@ Present in class.
   [R language]: http://www.r-project.org/
   [R Studio Desktop]: http://www.rstudio.com/products/rstudio/
   [Ubuntu 14.04 LTS]: http://www.ubuntu.com/download/desktop
-  [Basic Git]: http://gitref.org/basic/
-  [Documentation for GitHub]: https://help.github.com/
-  [their tutorials]: http://guides.github.com/
+  [this tutorial on Vagrant]: https://docs.vagrantup.com/v2/getting-started/index.html
+  [GNU Make]: http://www.gnu.org/software/make/
+  [GitHub's interactive tutorial]: http://try.github.io/
+  [basics]: http://gitref.org/basic/
+  [branching and merging]: http://gitref.org/branching/
+  [pull requests]: https://help.github.com/articles/using-pull-requests
+  [video]: http://vimeo.com/41045197
   [Pro Git]: http://git-scm.com/book
   [lectures about reproducible research]: http://kbroman.org/Tools4RR/pages/schedule.html
   [introduction]: http://kbroman.org/Tools4RR/assets/lectures/01_intro_withnotes.pdf
   [command line]: http://kbroman.org/Tools4RR/assets/lectures/02_unix_withnotes.pdf
   [version control]: http://kbroman.org/Tools4RR/assets/lectures/04_git_withnotes.pdf
-  [GitHub's online, interactive tutorial]: http://try.github.io/
-  [GitHub]: https://github.com/
+  [Why Use Make]: http://bost.ocks.org/mike/make/
   [repository for this syllabus]: https://github.com/lmullen/clio3-syllabus
   [Markdown]: https://help.github.com/articles/markdown-basics
   [Google Developers' introduction to R]: http://www.youtube.com/watch?v=iffR3fWv4xw&list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP
