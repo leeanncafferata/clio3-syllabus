@@ -109,6 +109,9 @@ loops, conditionals, functions, closure, and recursion.
 
 ## Sept. 17: Data Structures in JavaScript
 
+An introduction to how data is structured, and an introduction to the
+object-oriented style of programming for modeling data.
+
 ### Reading
 
 -   Read EJ, [ch. 4][], [ch. 6][].
@@ -131,48 +134,57 @@ loops, conditionals, functions, closure, and recursion.
 
 ## Sept. 24: Functional Programming in JavaScript; DOM Manipulation
 
+An introduction to manipulating data with pure functions, and to
+creating elements on a web page.
+
 ### Reading
 
-Eloquent JavaScript ch5.
-
-After reading ch5, check out LoDash.
-
-Glance at Eloquent JavaScript ch 13 for background, but no one directly
-manipulates the DOM. We'll do this is D3.
+-   Read EJ, [ch. 5][], [ch. 12][]. Skim [ch. 13][], but we have much
+    better ways for manipulating the DOM in D3.js.
+-   Read Scott Murray, *[Interactive Data Visualization for the Web][]*,
+    [ch. 4][2], [ch. 5][2].
+-   If it's helpful, read Mike Bostock, "[Thinking with Joins][]."
 
 ### Exercises
 
-Come to class having rewritten our API code using functional
-programming.
-
-### Due
-
--   TK Language report
--   TK Technique report
+-   Create separate `.js` files with the solutions for each exercise in
+    chapter 5 only.
+-   Last week we looked at historical data available through APIs.
+    Rewrite our code using functional programming. How can you do this
+    with functions that you write yourself? How can D3's functions for
+    manipulating data help you? How can you use D3's functions for
+    manipulating the DOM to display the data? Can you build in
+    interactivity? What can you make that is usefuL? Post your code to
+    GitHub (if suitable, as a [bl.ocks][] too).
 
 ## Oct. 1: Introduction to R / Grammar of Graphics in R
 
+We learn our second programming language and begin to make real
+visualizations.
+
 ### Reading
 
--   Watch [Google Developers' introduction to R][]. You might also like
-    R Twotorials.
--   Albert and Rizzo, R by example. (Or a better tutorial?)
--   Make use of Winston Chang, *R Graphics Cookbook*, appendix A, chs.
-    1-4.
--   Read Hadley Wickham, ggplot2: Elegant Graphics for Data Analysis
--   Be aware of Wilkinson, Grammar of Graphics
--   Tutorials in bookmarks on R base graphics
--   Familiarize yourself with the [ggplot2 documentation][].
--   If you're feeling ambitious, check out ggvis.
+-   Watch the [Google Developers' introduction to R][]. You might also
+    like [R Twotorials][].
+-   For a more thorough introduction to R, read the opening chapters of
+    Norman Matloff, *The Art of R Programming: A Tour of Statistical
+    Software Design* (No Starch Press, 2011) or of Hadley Wickham,
+    *[Advanced R][]*.
+-   Read Hadley Wickham, *ggplot2: Elegant Graphics for Data Analysis*,
+    chs. 1--5. For the theory behind ggplot, look at Leland Wilkinson,
+    *The Grammar of Graphics*, 2nd ed. (Springer, 2005). You may find
+    Winston Chang, *[R Graphics Cookbook][]*, appendix A, chs. 1--4, a
+    useful introduction to ggplot.
+-   Browse the [ggplot2 documentation][].
 
 ### Exercises
 
--   Experiment with ggplot2 in R Studio.
--   Work your way through {TODO} sample data sets. What charts can you
-    create? Post your results to rpubs and add a link as a pull request
-    a couple hours before class.
-
-### Due
+-   Experiment with ggplot2 in R Studio as you read the assigned books.
+-   Find a historical data set and make as many different kinds of
+    charts with it as you can. (Some of them should be bad charts or
+    unhelpful charts.) Annotate the charts in RMarkdown and Knitr
+    ([guide here][]). Post the code to GitHub and the document to
+    [RPubs][].
 
 ## Oct. 8: Manipulating Data in R
 
@@ -191,16 +203,14 @@ programming.
 -   Watch Hadley Wickham, "[Tidy Data and Tidy Tools][]," NYC Open
     Statistical Computing Meetup, Dec. 2011.
 
--   Read Seth van Hooland, Ruben Verborgh, and Max De Wilde, "[Cleaning
-    Data with OpenRefine][]," *The Programming Historian 2*.
+-   You may find Seth van Hooland, Ruben Verborgh, and Max De Wilde,
+    "[Cleaning Data with OpenRefine][]," to be helpful.
 
 -   Browse documentation for [reshape2][], [dplyr][], [plyr][].
 
 -   Experiment with reshaping, tidying, and cleaning your own data.
 
 ### Exercises
-
-### Due
 
 ## Oct. 15: Mapping in R
 
@@ -220,8 +230,6 @@ programming.
 
 ### Exercises
 
-### Due
-
 ## Oct. 22: Text Mining in R
 
 ### Reading
@@ -232,15 +240,11 @@ Additional sources:
 
 ### Exercises
 
-### Due
-
 ## Oct. 29: Network Analysis in R
 
 ### Reading
 
 ### Exercises
-
-### Due
 
 -   <http://sna.stanford.edu/rlabs.php>
 
@@ -248,25 +252,22 @@ Additional sources:
 
 ### Reading
 
--   Read Scott Murray, *[Interactive Data Visualization for the Web][]*.
+-   Read Scott Murray, *[Interactive Data Visualization for the
+    Web][3]*.
 
 -   Browse the [D3 documentation][].
 
--   Experiment with the D3 examples [here][] and [here][2].
+-   Experiment with the D3 examples [here][] and [here][4].
 
 -   Let's make a map, let's make a bar chart, let's make a bubble map.
 
 ### Exercises
-
-### Due
 
 ## Nov. 12: D3.js Applications
 
 ### Reading
 
 ### Exercises
-
-### Due
 
 ## Nov. 19: Workshop day / TBD
 
@@ -277,10 +278,6 @@ as debugging, refactoring, and testing; other programming languages
 (Python, Ruby, PHP); basic statistics of use to historians; or other
 topics relevant to your research.
 
-### Due
-
--   Tutorials due
-
 ## Nov. 26: No class
 
 Thanksgiving break.
@@ -290,6 +287,33 @@ Thanksgiving break.
 Present in class.
 
 -   Final projects due December 10
+
+[ch. 5]: [ch. 12]: http://eloquentjavascript.net/12\_browser.html [ch.
+13]: http://eloquentjavascript.net/13\_dom.html [Interactive Data
+Visualization for the Web]:
+http://chimera.labs.oreilly.com/books/1230000000345/index.html [2][]:
+http://chimera.labs.oreilly.com/books/1230000000345/ch05.html [Google
+Developers' introduction to R][]:
+http://www.youtube.com/watch?v=iffR3fWv4xw&list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP
+[ggplot2 documentation][]: http://docs.ggplot2.org/current/ [Tidy Data]:
+http://vita.had.co.nz/papers/tidy-data.pdf [Reshaping Data in R]:
+http://stat-computing.org/newsletter/issues/scgn-16-2.pdf [The
+Split-Combine-Apply Strategy for Data Analysis]:
+http://www.jstatsoft.org/v40/i01/ [Tidy Data and Tidy Tools]:
+http://vimeo.com/33727555 [Cleaning Data with OpenRefine]:
+http://programminghistorian.org/lessons/cleaning-data-with-openrefine
+[reshape2]: http://cran.r-project.org/web/packages/reshape2/index.html
+[dplyr]: https://github.com/hadley/dplyr [plyr]:
+http://cran.r-project.org/web/packages/plyr/index.html [Introduction to
+Spatial Data and ggplot2]:
+http://spatial.ly/2013/12/introduction-spatial-data-ggplot2/ [ggmap:
+Spatial Visualization with ggplot2]:
+http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf [RGDAL]:
+http://cran.r-project.org/web/packages/rgdal/index.html [3]:
+http://chimera.labs.oreilly.com/books/1230000000345 [D3 documentation]:
+https://github.com/mbostock/d3/wiki [here]:
+https://github.com/mbostock/d3/wiki/Gallery [4]:
+http://bl.ocks.org/mbostock
 
   [Linux and the Unix Philosophy]: http://magik.gmu.edu/cgi-bin/Pwebrecon.cgi?BBID=3366870
   [The Linux Command Line: A Complete Introduction]: http://linuxcommand.org/tlcl.php
@@ -336,20 +360,13 @@ Present in class.
   [API for the American Converts Database]: http://americanconverts.org/api
   [items page]: http://americanconverts.org/api/items?pretty_print
   [Omeka REST API documentation]: http://omeka.readthedocs.org/en/latest/Reference/api/
-  [Google Developers' introduction to R]: http://www.youtube.com/watch?v=iffR3fWv4xw&list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP
+  [2]: http://chimera.labs.oreilly.com/books/1230000000345/ch04.html
+  [Thinking with Joins]: http://bost.ocks.org/mike/join/
+  [bl.ocks]: http://bl.ocks.org/
+  [Google Developers' introduction to R]: https://www.youtube.com/playlist?list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP
+  [R Twotorials]: http://www.twotorials.com/
+  [Advanced R]: http://adv-r.had.co.nz/
+  [R Graphics Cookbook]: http://www.cookbook-r.com/Graphs/
   [ggplot2 documentation]: http://docs.ggplot2.org/current/
-  [Tidy Data]: http://vita.had.co.nz/papers/tidy-data.pdf
-  [Reshaping Data in R]: http://stat-computing.org/newsletter/issues/scgn-16-2.pdf
-  [The Split-Combine-Apply Strategy for Data Analysis]: http://www.jstatsoft.org/v40/i01/
-  [Tidy Data and Tidy Tools]: http://vimeo.com/33727555
-  [Cleaning Data with OpenRefine]: http://programminghistorian.org/lessons/cleaning-data-with-openrefine
-  [reshape2]: http://cran.r-project.org/web/packages/reshape2/index.html
-  [dplyr]: https://github.com/hadley/dplyr
-  [plyr]: http://cran.r-project.org/web/packages/plyr/index.html
-  [Introduction to Spatial Data and ggplot2]: http://spatial.ly/2013/12/introduction-spatial-data-ggplot2/
-  [ggmap: Spatial Visualization with ggplot2]: http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf
-  [RGDAL]: http://cran.r-project.org/web/packages/rgdal/index.html
-  [Interactive Data Visualization for the Web]: http://chimera.labs.oreilly.com/books/1230000000345
-  [D3 documentation]: https://github.com/mbostock/d3/wiki
-  [here]: https://github.com/mbostock/d3/wiki/Gallery
-  [2]: http://bl.ocks.org/mbostock
+  [guide here]: http://rmarkdown.rstudio.com/
+  [RPubs]: http://rpubs.com/
