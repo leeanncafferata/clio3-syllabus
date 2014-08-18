@@ -83,9 +83,26 @@ distribute your code, and most importantly reproduce your own results.
 
 ### Reading
 
-Eloquent JavaScript introduction; ch 10
+Eloquent JavaScript introduction; ch 1; ch2; ch3
 
 ### Exercises
+
+Come to class with all the exercises from these chapters solved as a 
+separate JavaScript file.
+
+Note that if you've installed node.js, you should be able to run scripts 
+from the command line. Suppose you have a file `hello.js` that contains 
+this one line:
+
+{% highlight javascript linenos %}
+console.log("Hello world.");
+{% endhighlight %}
+
+You can run this file with the command `node hello.js`.
+
+You should understand how to use conditionals, loops, functions. Do your 
+best to understand scope and closures, as well as recursion. We 
+will work with these in class with some real historical data.
 
 ### Due
 
@@ -93,36 +110,47 @@ Eloquent JavaScript introduction; ch 10
 
 ### Goal
 
+
 ### Reading
+
+Eloquent Javascript, ch4, ch6
 
 ### Exercises
 
+Work through all the exercises.
+
+Using the API techniques introduced earlier, find some historical data 
+source. Create a data structure that suits it.
+
+Next find some source from your own research not available as an API. 
+
 ### Due
 
-## Sept. 24: Functional Programming in JavaScript
+## Sept. 24: Functional Programming in JavaScript; DOM Manipulation
 
 ### Goal
 
 ### Reading
 
+Eloquent JavaScript ch5.
+
+After reading ch5, check out LoDash.
+
+Glance at Eloquent JavaScript ch 13 for background, but no one directly 
+manipulates the DOM. We'll do this is D3.
+
 ### Exercises
+
+Come to class having rewritten our API code using functional 
+programming.
 
 ### Due
 
 -   TK Language report
 -   TK Technique report
 
-## Oct. 1: Object Oriented Programming in JavaScript
 
-### Goal
-
-### Reading
-
-### Exercises
-
-### Due
-
-## Oct. 8: Introduction to R / Grammar of Graphics in R
+## Oct. 1: Introduction to R / Grammar of Graphics in R
 
 ### Goal
 
@@ -148,7 +176,7 @@ Eloquent JavaScript introduction; ch 10
 
 ### Due
 
-## Oct. 15: Manipulating Data in R
+## Oct. 8: Manipulating Data in R
 
 ### Goal
 
@@ -178,7 +206,7 @@ Eloquent JavaScript introduction; ch 10
 
 ### Due
 
-## Oct. 22: Mapping in R
+## Oct. 15: Mapping in R
 
 ### Goal
 
@@ -200,7 +228,7 @@ Eloquent JavaScript introduction; ch 10
 
 ### Due
 
-## Oct. 29: Text Mining in R
+## Oct. 22: Text Mining in R
 
 ### Goal
 
@@ -214,7 +242,7 @@ Additional sources:
 
 ### Due
 
-## Nov. 4: Network Analysis in R
+## Oct. 29: Network Analysis in R
 
 ### Goal
 
@@ -226,7 +254,7 @@ Additional sources:
 
 -   <http://sna.stanford.edu/rlabs.php>
 
-## Nov. 12: D3.js Concepts
+## Nov. 5: D3.js Concepts
 
 ### Goal
 
@@ -244,7 +272,17 @@ Additional sources:
 
 ### Due
 
-## Nov. 19: D3.js Applications
+## Nov. 12: D3.js Applications
+
+### Goal
+
+### Reading
+
+### Exercises
+
+### Due
+
+## Nov. 19: Workshop day
 
 ### Goal
 

@@ -3,11 +3,13 @@ layout: post
 title: 'Week 3: Introduction to JavaScript'
 ...
 
+Quicksort implementation in JavaScript to illustrate recursion.
+
 Notes for week three regarding using JavaScript to access an Omeka API.
 
-A minimal HTML file loading D# and
+Minimal HTML file loading D3 and
 
-{% highlight html %}
+{% highlight html linenos %}
 
 <!DOCTYPE html>
 <html>
@@ -25,7 +27,7 @@ A minimal HTML file loading D# and
 
 Minimal JS
 
-{% highlight js %}
+{% highlight javascript %}
 var site = "http://americanconverts.org/api/site";
 
 d3.json(site, ready);
@@ -40,7 +42,7 @@ function ready(response) {
 
 Showing the images:
 
-{% highlight js %}
+{% highlight javascript %}
 var site = "http://americanconverts.org/api/site";
 var items = "http://americanconverts.org/api/items?page=1";
 
