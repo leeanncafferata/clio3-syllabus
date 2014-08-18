@@ -85,41 +85,49 @@ code. [GNU Make][] helps automate and reproduce your results.
     `>>` operator appends to a file; there is also a command to get the
     current time.) Can you rewrite the Makefile so that it uses rules?
     So that it uses special targets? So that it works on several text
-    files at once? On an arbitrary number of files? Post your Makefile
-    and input text files to GitHub.
+    files at once? On an arbitrary number of files? So that is uses a
+    default rule? Post your Makefile and input text files to GitHub.
 
 ## Sept. 10: Flow Control and Functions in JavaScript
 
+The basics of JavaScript, as well as some foundational principles like
+loops, conditionals, functions, closure, and recursion.
+
 ### Reading
 
-Eloquent JavaScript introduction; ch 1; ch2; ch3
+-   Read Marijn Haverbeke, *[Eloquent JavaScript: A Modern Introduction
+    to Programming][]* (hereafter EJ), [introduction][1], [ch. 1][],
+    [ch. 2][], [ch. 3][].
+-   Browse the [JavaScript documentation][], paying special attention to
+    [strings][]. ([DevDocs][] is also useful for language and API
+    documentation.)
 
 ### Exercises
 
-Come to class with all the exercises from these chapters solved as a
-separate JavaScript file. You should understand how to use conditionals,
-loops, functions. Do your best to understand scope and closures, as well
-as recursion. We will work with these in class with some real historical
-data.
-
-### Due
+-   Create separate `.js` files with the solutions for each exercise in
+    these chapters, and post them to GitHub.
 
 ## Sept. 17: Data Structures in JavaScript
 
 ### Reading
 
-Eloquent Javascript, ch4, ch6
+-   Read EJ, [ch. 4][], [ch. 6][].
+-   Browse the [documentation for the DPLA's API][] and sign up for [an
+    API key][].
+-   Browse the [API for the American Converts Database][], especially
+    the [items page][], as well as the [Omeka REST API documentation][].
 
 ### Exercises
 
-Work through all the exercises.
-
-Using the API techniques introduced earlier, find some historical data
-source. Create a data structure that suits it.
-
-Next find some source from your own research not available as an API.
-
-### Due
+-   Create separate `.js` files with the solutions for each exercise in
+    these chapters, and post them to GitHub.
+-   Think of a historical source, event, or life that could be modeled
+    as data, and create a data model for it in JavaScript. Can you write
+    a constructor function to create new objects? Can you create at
+    least five objects? How can you store an arbitrary number of
+    objects? Now that you've stored those objects, what can you do with
+    them that is interesting? How can you display, represent, filter,
+    and link them? Post your code to GitHub.
 
 ## Sept. 24: Functional Programming in JavaScript; DOM Manipulation
 
@@ -244,7 +252,7 @@ Additional sources:
 
 -   Browse the [D3 documentation][].
 
--   Experiment with the D3 examples [here][] and [here][1].
+-   Experiment with the D3 examples [here][] and [here][2].
 
 -   Let's make a map, let's make a bar chart, let's make a bubble map.
 
@@ -313,6 +321,21 @@ Present in class.
   [Why Use Make]: http://bost.ocks.org/mike/make/
   [repository for this syllabus]: https://github.com/lmullen/clio3-syllabus
   [Markdown]: https://help.github.com/articles/markdown-basics
+  [Eloquent JavaScript: A Modern Introduction to Programming]: http://eloquentjavascript.net/
+  [1]: http://eloquentjavascript.net/00_intro.html
+  [ch. 1]: http://eloquentjavascript.net/01_values.html
+  [ch. 2]: http://eloquentjavascript.net/02_program_structure.html
+  [ch. 3]: http://eloquentjavascript.net/03_functions.html
+  [JavaScript documentation]: http://www.w3schools.com/jsref/
+  [strings]: http://www.w3schools.com/jsref/jsref_obj_string.asp
+  [DevDocs]: http://devdocs.io/
+  [ch. 4]: http://eloquentjavascript.net/04_data.html
+  [ch. 6]: http://eloquentjavascript.net/06_object.html
+  [documentation for the DPLA's API]: http://dp.la/info/developers/codex/
+  [an API key]: http://dp.la/info/developers/codex/policies/#get-a-key
+  [API for the American Converts Database]: http://americanconverts.org/api
+  [items page]: http://americanconverts.org/api/items?pretty_print
+  [Omeka REST API documentation]: http://omeka.readthedocs.org/en/latest/Reference/api/
   [Google Developers' introduction to R]: http://www.youtube.com/watch?v=iffR3fWv4xw&list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP
   [ggplot2 documentation]: http://docs.ggplot2.org/current/
   [Tidy Data]: http://vita.had.co.nz/papers/tidy-data.pdf
@@ -329,4 +352,4 @@ Present in class.
   [Interactive Data Visualization for the Web]: http://chimera.labs.oreilly.com/books/1230000000345
   [D3 documentation]: https://github.com/mbostock/d3/wiki
   [here]: https://github.com/mbostock/d3/wiki/Gallery
-  [1]: http://bl.ocks.org/mbostock
+  [2]: http://bl.ocks.org/mbostock
