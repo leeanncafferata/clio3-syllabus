@@ -67,29 +67,12 @@ This course assumes that you are programming in a Unix-like environment,
 namely some Linux distribution running natively or in a virtual machine,
 or in the Unix underpinnings of Mac OS X. You're free to use Windows if
 you like, but I won't be able to guide you in figuring out the
-differences, and your code will have to run on my machine.
-
-Configuration is the bane of all computer projects, and to that end all
-code must run on a standard machine. This machine image will be
-available to you using [Vagrant][], and you'll be able to run it as a
-virtual machine on your own computer. You should test all non-trivial
-code in the virtual machine before submitting it. We'll cover this in an
-early class period.
-
-To submit your code, you will need a [GitHub][] account and must let me
-know your user name. (Your account can be anonymous/pseudonymous to the
-world, if you wish, just not to the people in this course.) Each
-assignment for the course should have its own repository (or [Gist][]
-for a short assignment). If an assignment is to be graded, then the
-repository should have a [tag][], `submitted`, for the version of the
-assignment you wish me to grade.
-
-This course will not teach you the tips and tricks of the innumerable
-tools that surround programming, such as IDEs (Integrated Development
-Environments), text editors, syntax checkers, environment managers and
-so on, though I can provide suggestions if you need them. Use whatever
-you want. If you don't have a preferred text editor, you could do worse
-than [Sublime Text][] or [Atom][]. I prefer [Vim][].
+differences, and your code will have to run on my machine. Configuration
+is the bane of all computer projects, and to that end all code must run
+on a standard machine. This machine image will be available to you using
+[Vagrant][], and you'll be able to run it as a virtual machine on your
+own computer. You should test all non-trivial code in the virtual
+machine before submitting it. We'll cover this in an early class period.
 
 The culture around programming can be extraordinarily generous, with
 many people sharing their work and expertise for free. It can also be
@@ -102,11 +85,5 @@ stuck in the more nefarious parts of the culture, come ask for help.
   [JavaScript]: http://en.wikipedia.org/wiki/JavaScript
   [R]: http://www.r-project.org/
   [Vagrant]: http://www.vagrantup.com/
-  [GitHub]: https://github.com/
-  [Gist]: https://gist.github.com/
-  [tag]: http://git-scm.com/book/en/Git-Basics-Tagging
-  [Sublime Text]: http://www.sublimetext.com/
-  [Atom]: https://atom.io/
-  [Vim]: http://www.vim.org/
   [Stack Overflow]: http://stackoverflow.com/
   [This website]: http://codespeak.scholarslab.org/
