@@ -7,11 +7,12 @@ title: About
 ## Course description
 
 This class will introduce you to the rudiments of programming languages;
-even more, the class will teach you how to learn whatever programming
-techniques you need to solve scholarly problems. After the introduction
-to programing, the course will focus on applying programmatic techniques
-to historical research. Each week you will learn a new technique---such
-as a visualization, mapping, network analysis, text-mining---using real
+even more, the class will teach you how to learn how to learn whatever
+programming techniques you need to solve scholarly problems. We will
+spend the first month on an general introduction to programming. Most of
+the course will focus on applying programming techniques to historical
+research. Each week you will learn a new technique---such as a
+visualization, mapping, network analysis, text-mining---using real
 historical data to develop arguments and interpretation. By the end of
 the semester you will create a programming project of your choice which
 will help you in your future scholarly research. The main languages that
@@ -24,6 +25,7 @@ learn any language you like for the final project.
 
 After taking this course, you will
 
+-   be able to use computer programming to make historical arguments;
 -   be able to apply programmatic techniques to scholarly research in
     history, especially involving data analysis;
 -   understand the common concepts of computer programming across
@@ -36,32 +38,28 @@ After taking this course, you will
 
 ## How to succeed at this course
 
-This course does not presume any prior experience with computer
-programming. However the course does assume that you have taken Clio 1
-and Clio 2, and thus possess the skills taught in those courses. This
-course will be hard and unfamiliar, not least because you will be
-learning new techniques at the same time that you are trying to apply
-them to historical research. Here are a couple suggestions about how to
-succeed at this course:
+This course does not assume any prior experience with computer
+programming. (However the course does assume that you have taken George
+Mason's Clio 1 and Clio 2, and thus possess the skills taught in those
+courses.) This course will be hard and unfamiliar, not least because you
+will be learning new techniques at the same time that you are trying to
+apply them to historical research. Here are a couple suggestions about
+how to succeed at this course:
 
--   Come talk with me early and often. You can find me in my office at
-    RRCHNM or can make an appointment; once a week is not too often to
+-   Come talk with me early and often. Once a week is not too often to
     talk outside of class. Most of your learning will happen outside of
     class, and I will be able to help you the most if you try your hand
     at the exercises before you come, but a conversation can go a long
     way towards getting you unstuck.
 
--   Keep the history in mind at all times, especially how you might turn
-    computer code into a historical argument. It is very difficult to
-    learn to program without a genuine use for what you are trying to
-    learn. Find a way that the techniques we are learning apply to your
-    research, especially your dissertation research. I will provide data
-    sets that you can use, but you are always welcome to substitute
-    sources that are relevant to your research. The most successful
-    students in this course will be those who get a head start on the
-    research for their dissertations.
-
-## What will happen in class
+-   Keep the history in mind at all times, and especially think about
+    how you might turn computer code into a historical argument. It is
+    very difficult to learn to program without a genuine use for what
+    you are trying to learn. Find a way that the techniques we are
+    learning apply to your research, especially your work for a
+    dissertation, research paper, or job. I will provide data sets that
+    you can use, but you are always welcome to substitute sources that
+    are relevant to your research.
 
 ## A few notes
 

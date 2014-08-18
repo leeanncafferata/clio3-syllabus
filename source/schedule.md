@@ -286,9 +286,10 @@ Additional sources:
 
 This week we will work collaboratively on the projects for the course.
 We may also cover additional topics such as web applications and
-frameworks (Ruby on Rails, Sinatra, Node.js), programming practices such
-as debugging, refactoring, and testing, or other topics relevant to your
-research.
+frameworks (Ruby on Rails, Sinatra, Node.js); programming practices such
+as debugging, refactoring, and testing; other programming languages
+(Python, Ruby, PHP); basic statistics of use to historians; or other
+topics relevant to your research.
 
 ### Due
 
@@ -302,9 +303,10 @@ Thanksgiving break.
 
 This week we will work collaboratively on the projects for the course.
 We may also cover additional topics such as web applications and
-frameworks (Ruby on Rails, Sinatra, Node.js), programming practices such
-as debugging, refactoring, and testing, or other topics relevant to your
-research.
+frameworks (Ruby on Rails, Sinatra, Node.js); programming practices such
+as debugging, refactoring, and testing; other programming languages
+(Python, Ruby, PHP); basic statistics of use to historians; or other
+topics relevant to your research.
 
 ## Dec. 15: No class
 
