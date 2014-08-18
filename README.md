@@ -16,7 +16,7 @@ Here is how to contribute to this syllabus.
 5.  (optional) Run `rake preview` and open <http://localhost:4000> in
     your web browser to preview changes.
 6.  Create a new branch for your changes:
-    `git checkout -b     my-new-branch-name`.
+    `git checkout -b my-new-branch-name`.
 7.  Make your changes and [commit them][]. [Follow the convention for
     committ messages][].
 8.  Push your changes to your forked repository: `git push`
@@ -32,8 +32,6 @@ licensed [CC-BY][]. You may use and adapt this syllabus for any purpose,
 provided that you provide attribution, preferably with a link to the
 original course website.
 
-[![CC-BY][1]][CC-BY]
-
   [Clio 3: Programming for Historians]: http://lincolnmullen.com/courses/clio3.2014/
   [Lincoln Mullen]: http://lincolnmullen.com
   [GitHub]: https://github.com
@@ -43,4 +41,3 @@ original course website.
   [Follow the convention for committ messages]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
   [pull request]: https://help.github.com/articles/creating-a-pull-request
   [CC-BY]: http://creativecommons.org/licenses/by/4.0/
-  [1]: https://i.creativecommons.org/l/by/4.0/80x15.png
