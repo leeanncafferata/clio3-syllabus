@@ -13,6 +13,8 @@ This week you will learn to interact with your computer and to run
 programs through the command-line interface. You will also learn a
 philosophy for writing programs.
 
+We will also make revisions to the syllabus as needed.
+
 ### Reading
 
 -   Mike Gancarz, *[Linux and the Unix Philosophy][]*, chs. 1--8,
@@ -87,29 +89,28 @@ Eloquent JavaScript introduction; ch 1; ch2; ch3
 
 ### Exercises
 
-Come to class with all the exercises from these chapters solved as a 
+Come to class with all the exercises from these chapters solved as a
 separate JavaScript file.
 
-Note that if you've installed node.js, you should be able to run scripts 
-from the command line. Suppose you have a file `hello.js` that contains 
+Note that if you've installed node.js, you should be able to run scripts
+from the command line. Suppose you have a file `hello.js` that contains
 this one line:
 
-{% highlight javascript linenos %}
+{% highlight javascript linenos %} 
 console.log("Hello world.");
 {% endhighlight %}
 
 You can run this file with the command `node hello.js`.
 
-You should understand how to use conditionals, loops, functions. Do your 
-best to understand scope and closures, as well as recursion. We 
-will work with these in class with some real historical data.
+You should understand how to use conditionals, loops, functions. Do your
+best to understand scope and closures, as well as recursion. We will
+work with these in class with some real historical data.
 
 ### Due
 
 ## Sept. 17: Data Structures in JavaScript
 
 ### Goal
-
 
 ### Reading
 
@@ -119,10 +120,10 @@ Eloquent Javascript, ch4, ch6
 
 Work through all the exercises.
 
-Using the API techniques introduced earlier, find some historical data 
+Using the API techniques introduced earlier, find some historical data
 source. Create a data structure that suits it.
 
-Next find some source from your own research not available as an API. 
+Next find some source from your own research not available as an API.
 
 ### Due
 
@@ -136,19 +137,18 @@ Eloquent JavaScript ch5.
 
 After reading ch5, check out LoDash.
 
-Glance at Eloquent JavaScript ch 13 for background, but no one directly 
+Glance at Eloquent JavaScript ch 13 for background, but no one directly
 manipulates the DOM. We'll do this is D3.
 
 ### Exercises
 
-Come to class having rewritten our API code using functional 
+Come to class having rewritten our API code using functional
 programming.
 
 ### Due
 
 -   TK Language report
 -   TK Technique report
-
 
 ## Oct. 1: Introduction to R / Grammar of Graphics in R
 
@@ -282,29 +282,31 @@ Additional sources:
 
 ### Due
 
-## Nov. 19: Workshop day
+## Nov. 19: Workshop day / TBD
 
-### Goal
-
-### Reading
-
-### Exercises
+This week we will work collaboratively on the projects for the course.
+We may also cover additional topics such as web applications and
+frameworks (Ruby on Rails, Sinatra, Node.js), programming practices such
+as debugging, refactoring, and testing, or other topics relevant to your
+research.
 
 ### Due
+
+-   Tutorials due
 
 ## Nov. 26: No class
 
-## Dec. 3: Workshop day
+Thanksgiving break.
 
-### Goal
+## Dec. 3: Workshop day / TBD
 
-### Reading
+This week we will work collaboratively on the projects for the course.
+We may also cover additional topics such as web applications and
+frameworks (Ruby on Rails, Sinatra, Node.js), programming practices such
+as debugging, refactoring, and testing, or other topics relevant to your
+research.
 
-### Exercises
-
-### Due
-
-## Dec. 15: No class meeting
+## Dec. 15: No class
 
 Exam week, and thus no class meeting.
 
