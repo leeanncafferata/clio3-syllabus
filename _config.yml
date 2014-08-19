@@ -25,7 +25,8 @@ course_semester: "Fall 2014"
 instructor_email: lmullen@gmu.edu
 instructor_name: Lincoln Mullen
 instructor_office: "Research Hall 457"
-instructor_officehours: TBD
+instructor_officehours: By appointment
+instructor_officehours_link: http://lincolnmullen.com/officehours
 instructor_twitter: lincolnmullen
 instructor_website: http://lincolnmullen.com
 course_description: "An introduction to programming for historians."
