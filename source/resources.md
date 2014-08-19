@@ -44,8 +44,8 @@ to edit this page to add your own resources.
     *[Structure and Interpretation of Computer Programs][]*, 2nd ed.
     (MIT Press, 1996).
 -   Randall Hyde, *[Write Great Code][]* (No Starch, 2004).
--   Andrew Hunt, *The Pragmatic Programmer: From Journeyman to Master*
-    (Addison-Wesley, 1999).
+-   Andrew Hunt and David Thomas, *The Pragmatic Programmer: From
+    Journeyman to Master* (Addison-Wesley, 1999).
 
 ## Documentation
 
