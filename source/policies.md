@@ -39,13 +39,13 @@ portion of your grade for the class will be lowered for each absence.
 ### Communications
 
 I am always glad to meet with you in person. You can make an appointment
-for office hours by e-mailing me. If none of my scheduled office hours
-work for you, we can find another time that does. From time to time I
-may offer online office hours. For all other communications I prefer
-e-mail. I will reply to your messages within 24 hours (but never on a
-Sunday). I will send official course communications to your George Mason
-e-mail address, which you should check regularly. I will discuss grades
-only in person.
+for office hours by [signing up here][] or [e-mailing me][]. If none of
+my scheduled office hours work for you, we can find another time that
+does. From time to time I may offer online office hours. For all other
+communications I prefer e-mail. I will reply to your messages within 24
+hours (but never on a Sunday). I will send official course
+communications to your George Mason e-mail address, which you should
+check regularly. I will discuss grades only in person.
 
 ### Privacy
 
@@ -57,24 +57,26 @@ course will have access to your work.
 ### Late work
 
 I am willing to grant extensions for cause, but you must request an
-extension well in advance of the assignment's due date. For every day or
-part of a day that an assignment is late, I will reduce your grade by a
-step, e.g., from A to A-, from A- to B+, and so on.
+extension before the assignment's due date. For every day or part of a
+day that an assignment is late without an extension, I may reduce your
+grade by a step, e.g., from A to A-, from A- to B+, and so on. No work
+(other than final exams) will be accepted later than the last day that
+the class meets unless I have agreed otherwise.
 
 ### Accommodations
 
 If you are a student with a disability and you need academic
 accommodations, please see me and contact the Office of Disability
-Services at 703.993.2474 or <http://ods.gmu.edu>. All academic
+Services at 703-993-2474 or <http://ods.gmu.edu>. All academic
 accommodations must be arranged through that office.
 
 ### General policies
 
 See the [George Mason University catalog][] for general policies, as
 well as the university [statement on diversity][]. You are expected to
-know and follow George Mason's policies on academic integrity and the
-honor code. Please ask me if you have any questions about how these
-policies apply to work in this course.
+know and follow George Mason's policies on [academic integrity][] and
+the [honor code][]. Please ask me if you have any questions about how
+these policies apply to work in this course.
 
 ### License
 
@@ -85,6 +87,10 @@ for any purpose, provided that you attribute it to the author,
 preferably at the course website.
 
   [academic calendar]: http://registrar.gmu.edu/calendars/fall-2014/
+  [signing up here]: http://lincolnmullen.com/officehours
+  [e-mailing me]: mailto:lmullen@gmu.edu
   [George Mason University catalog]: http://catalog.gmu.edu/
   [statement on diversity]: http://ctfe.gmu.edu/professional-development/mason-diversity-statement/
+  [academic integrity]: http://oai.gmu.edu/
+  [honor code]: http://oai.gmu.edu/understanding-the-honor-code/
   [Creative Commons Attribution 4.0 International License]: http://creativecommons.org/licenses/by/4.0/
