@@ -12,6 +12,8 @@ to edit this page to add your own resources.
 -   [The Programming Historian][]
 -   Structure and Interpretation of Computer Programs
 -   Book on machine and programming
+-   Andrew Hunt, *The Pragmatic Programmer: From Journeyman to Master* 
+    (Addison-Wesley, 1999).
 
 ## Documentation
 
