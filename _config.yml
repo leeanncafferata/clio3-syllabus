@@ -10,7 +10,7 @@ permalink: pretty
 lsi: false
 
 # Draft or not?
-draft: true
+draft: false
 
 # Course information
 title: "Clio 3: Programming in History/New Media"
