@@ -85,7 +85,7 @@ code. [GNU Make][] helps automate and reproduce your results.
     `>>` operator appends to a file; there is also a command to get the
     current time.) Can you rewrite the Makefile so that it uses rules?
     So that it uses special targets? So that it works on several text
-    files at once? On an arbitrary number of files? So that is uses a
+    files at once? On an arbitrary number of files? So that it uses a
     default rule? Post your Makefile and input text files to GitHub.
 
 ## Sept. 10: Flow Control and Functions in JavaScript
@@ -188,6 +188,9 @@ visualizations.
 
 ## Oct. 8: Manipulating Data in R
 
+Data seldom comes in the format we need it: this is how to munge it into
+a useful form.
+
 ### Reading
 
 -   Watch Hadley Wickham, "[Tidy Data and Tidy Tools][]," NYC Open
@@ -213,7 +216,9 @@ tidied. Can you also apply this technique to some data you have gathered
 for your research? Publish your input, output, and code files on GitHub
 and your explanation of the process as an Rpubs document.
 
-## Oct. 15: Mapping in R
+## Oct. 15: Sp in R
+
+How to make maps and perform other kinds of spatial analysis.
 
 ### Reading
 
@@ -240,6 +245,9 @@ latitude and longitude) it will probably blow up. First convert the
 shapefile to [EPSG 4326/WGS 84][].
 
 ## Oct. 22: Text Mining in R
+
+How to do "distant reading," document similarity, and other kinds of
+textual analysis.
 
 ### Reading
 
@@ -273,6 +281,9 @@ to GitHub and your results to RPubs:
 
 ## Oct. 29: Network Analysis in R
 
+How to measure and visualize networks of people, events, ideas, sources,
+you name it.
+
 ### Reading
 
 -   Read Eric D. Kolaczyk and Gábor Csárdi, *Statistical Analysis of
@@ -293,6 +304,8 @@ visualizations and interpretations.
 
 ## Nov. 5: D3.js Concepts
 
+The basics of a powerful visualization library for the web.
+
 ### Reading
 
 -   Read Scott Murray, *[Interactive Data Visualization for the Web][3]*
@@ -311,6 +324,8 @@ visualizations and interpretations.
     interactivity add to the graphics? What does it take away?
 
 ## Nov. 12: D3.js Applications
+
+From D3 basics to D3 for history.
 
 ### Exercises
 

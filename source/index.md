@@ -9,7 +9,7 @@ title: About
 This class will introduce you to the rudiments of programming languages;
 even more, the class will teach you how to learn how to learn whatever
 programming techniques you need to solve scholarly problems. We will
-spend the first month on an general introduction to programming. Most of
+spend the first month on a general introduction to programming. Most of
 the course will focus on applying programming techniques to historical
 research. Each week you will learn a new technique---such as a
 visualization, mapping, network analysis, text-mining---using real
@@ -26,11 +26,12 @@ learn any language you like for the final project.
 After taking this course, you will
 
 -   be able to use computer programming to make historical arguments;
--   be able to apply programmatic techniques to scholarly research in
-    history, especially involving data analysis;
+-   be able to apply programming techniques to scholarly research in
+    history, especially involving quantitative history, spatial history
+    and mapping, network analysis, and text mining;
 -   understand the common concepts of computer programming across
     computer languages;
--   be able to use Javascript and R and some of their most useful
+-   be able to use JavaScript and R and some of their most useful
     libraries;
 -   be able to read documentation for languages and libraries in order
     to teach yourself programming techniques as they become useful to
