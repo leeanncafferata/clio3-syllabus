@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 4
+order: 3
 permalink: '/schedule/'
 title: Schedule
 ...
@@ -139,10 +139,10 @@ creating elements on a web page.
 
 ### Reading
 
--   Read EJ, [ch. 5][], [ch. 12][]. Skim [ch. 13][], but we have much
+-   Read EJ, [ch. 5][], [ch. 12][], Skim [ch. 13][], but we have much
     better ways for manipulating the DOM in D3.js.
--   Read Scott Murray, *[Interactive Data Visualization for the Web][]*,
-    [ch. 4][2], [ch. 5][2].
+-   Read Scott Murray, *[Interactive Data Visualization for the Web][]*
+    (O'Reilly, 2013), [ch. 4][2], [ch. 5][3].
 -   If it's helpful, read Mike Bostock, "[Thinking with Joins][]."
 
 ### Exercises
@@ -190,93 +190,145 @@ visualizations.
 
 ### Reading
 
+-   Watch Hadley Wickham, "[Tidy Data and Tidy Tools][]," NYC Open
+    Statistical Computing Meetup, Dec. 2011.
 -   Read Hadley Wickham, "[Tidy Data][]," *Journal of Statistical
     Software* (forthcoming).
-
 -   Read Hadley Wickham, "[Reshaping Data in R][]," *Statistical
     Computing and Graphics* 16, no. 2 (Dec. 2005): 5--8.
-
 -   Read Hadley Wickham, "[The Split-Combine-Apply Strategy for Data
     Analysis][]," *Journal of Statistical Software* 40, no. 1 (Apr.
     2011): 1--29.
-
--   Watch Hadley Wickham, "[Tidy Data and Tidy Tools][]," NYC Open
-    Statistical Computing Meetup, Dec. 2011.
-
+-   Browse documentation for [tidyr][] and [dplyr][]. Be aware of the
+    more full-featured packages [reshape2][] and [plyr][].
 -   You may find Seth van Hooland, Ruben Verborgh, and Max De Wilde,
     "[Cleaning Data with OpenRefine][]," to be helpful.
 
--   Browse documentation for [reshape2][], [dplyr][], [plyr][].
-
--   Experiment with reshaping, tidying, and cleaning your own data.
-
 ### Exercises
+
+You will be provided with a messy, untidy data set. Without editing any
+file by hand, create a pipeline that cleans and tidies the data. Create
+some sample data visualizations to demonstrate that the data has been
+tidied. Can you also apply this technique to some data you have gathered
+for your research? Publish your input, output, and code files on GitHub
+and your explanation of the process as an Rpubs document.
 
 ## Oct. 15: Mapping in R
 
 ### Reading
 
--   Applied Spatial Data Analysis in R
+-   Read Roger S. Bivand, Edzer Pebesma, and Virgilio Gómez-Rubio,
+    *Applied Spatial Data Analysis with R* (Springer, 2013).
 
--   Read James Cheshire, "[Introduction to Spatial Data and ggplot2][],"
-    Spatial.ly, Dec. 9, 2013.
+-   Read Robin Lovelace and James Cheshire, "[Introduction to Spatial
+    Data and ggplot2][]," Spatial.ly, Dec. 9, 2013.
 
--   Read David Kahle and Hadley Wickham, "[ggmap: Spatial Visualization
-    with ggplot2][]," *The R Journal* 5, no. 1 (June 2013): 144--61.
+-   Read Steven Brey, "[Working with Geospatial Data][]" and Bethany
+    Yollin, "[Working with Geospatial Data (and ggplot2)][]."
 
--   Browse documentation for [RGDAL][].
-
--   Experiment with spatial data and shapefiles with ggplot2/ggmap.
+-   Browse documentation for [sp][], [rgdal][], [rgeos][], [geonames][],
+    and [ggmap][] R packages, as well as for the [GDAL/OGR][]
+    command-line tools.
 
 ### Exercises
+
+Select from the spatial data sets available to you, or find your own.
+Make maps. Publish your code to GitHub and your results to Rpubs. Hint:
+If you use ggplot2 with a projected shapefile (i.e., a shapefile whose
+coordinates are stored in some coordinate reference system other than
+latitude and longitude) it will probably blow up. First convert the
+shapefile to [EPSG 4326/WGS 84][].
 
 ## Oct. 22: Text Mining in R
 
 ### Reading
 
-Additional sources:
-
--   Matthew Jockers, *Macroanalysis*
+-   Read Matthew Jockers, *Text Analysis with R for Students of
+    Literature* (Springer, 2014). You may also wish to consult Matthew
+    Jockers, *[Macroanalysis][]* (University of Illinois Press, 2013).
+-   Read Fred Gibbs, "[Document Similarity with R][],"
+-   Read the text mining and topic modeling sections sections of Shawn
+    Graham, Ian Milligan, and Scott Weingart, *[The Historian's
+    Macroscope][]*.
+-   Read the [topic-modeling issue][] of the *Journal of Digital
+    Humanities* 2, no. 1 (2012).
+-   Browse the documentation for [MALLET][] and the [mallet][MALLET] and
+    [tm][] R package.
 
 ### Exercises
+
+Chose one (or both) of the following, in either case posting your code
+to GitHub and your results to RPubs:
+
+-   In the nineteenth-century United States, there was a fierce debate
+    over whether to codify laws. New York created several codes of civil
+    procedure, which other states then borrowed. You will be given a
+    handful of codes. Which codes borrowed from one another? What did
+    they borrow? How can you visualize this? How can you browse the
+    borrowings? What interpretations do you draw from this?
+-   You will be given a cleaned up set of texts from the Oxford
+    Movement's *Tracts for the Times*. What does text mining and topic
+    modeling these texts tell you? You may substitute another corpus if
+    you wish.
 
 ## Oct. 29: Network Analysis in R
 
 ### Reading
 
+-   Read Eric D. Kolaczyk and Gábor Csárdi, *Statistical Analysis of
+    Network Data with R* (Springer, 2014).
+-   Read the networks sections of Shawn Graham, Ian Milligan, and Scott
+    Weingart, *[The Historian's Macroscope][]*.
+-   Read Elijah Meeks, "[More Networks in the Humanities][]."
+-   Read Scott Weingart, "[Demystifying Networks, Parts I & II][],"
+    *Journal of Digital Humanities* 1, no. 1 (2011).
+-   Browse the documentation for the [statnet][], [sna][], and
+    [network][] R packages.
+
 ### Exercises
 
--   <http://sna.stanford.edu/rlabs.php>
+You will be provided with some historical data suitable for network
+analysis, or you may bring your own. Do some network analysis with
+visualizations and interpretations.
 
 ## Nov. 5: D3.js Concepts
 
 ### Reading
 
--   Read Scott Murray, *[Interactive Data Visualization for the
-    Web][3]*.
-
+-   Read Scott Murray, *[Interactive Data Visualization for the Web][3]*
+    (O'Reilly, 2013).
+-   Read Mike Bostock, "[Let's Make a Bar Chart][]" parts 1--3, "[Let's
+    Make a Map][]," "[Let's Make a Bubble Map][]," and "[Thinking with
+    Joins][]."
 -   Browse the [D3 documentation][].
-
--   Experiment with the D3 examples [here][] and [here][4].
-
--   Let's make a map, let's make a bar chart, let's make a bubble map.
+-   Experiment with the examples in the [D3 gallery][].
 
 ### Exercises
+
+-   Using some suitable data set(s), create as many different kinds of
+    D3 visualizations as you can manage. (These need not be complicated
+    visualizations.) Can you add interactivity to them? What does
+    interactivity add to the graphics? What does it take away?
 
 ## Nov. 12: D3.js Applications
 
-### Reading
-
 ### Exercises
+
+Over the course of the semester we have written programs to do many
+kinds of analysis. Take one of the kinds of analysis that seems most
+promising for your work, and translate it to the web using D3. Create
+the most sophisticated (not flashy) visualization that you can, and
+embed it in an interpretation or narrative. Use the principles of
+reproducible research as appropriate.
 
 ## Nov. 19: Workshop day / TBD
 
 This week we will work collaboratively on the projects for the course.
 We may also cover additional topics such as web applications and
-frameworks (Ruby on Rails, Sinatra, Node.js); programming practices such
-as debugging, refactoring, and testing; other programming languages
-(Python, Ruby, PHP); basic statistics of use to historians; or other
-topics relevant to your research.
+frameworks ([Ruby on Rails][], [Sinatra][], [Node.js][]); programming
+practices such as debugging, refactoring, and testing; other programming
+languages ([Python][], [Ruby][], [PHP][]); basic statistics of use to
+historians; or other topics relevant to your research.
 
 ## Nov. 26: No class
 
@@ -284,36 +336,9 @@ Thanksgiving break.
 
 ## Dec. 3: Project Presentations
 
-Present in class.
-
--   Final projects due December 10
-
-[ch. 5]: [ch. 12]: http://eloquentjavascript.net/12\_browser.html [ch.
-13]: http://eloquentjavascript.net/13\_dom.html [Interactive Data
-Visualization for the Web]:
-http://chimera.labs.oreilly.com/books/1230000000345/index.html [2][]:
-http://chimera.labs.oreilly.com/books/1230000000345/ch05.html [Google
-Developers' introduction to R][]:
-http://www.youtube.com/watch?v=iffR3fWv4xw&list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP
-[ggplot2 documentation][]: http://docs.ggplot2.org/current/ [Tidy Data]:
-http://vita.had.co.nz/papers/tidy-data.pdf [Reshaping Data in R]:
-http://stat-computing.org/newsletter/issues/scgn-16-2.pdf [The
-Split-Combine-Apply Strategy for Data Analysis]:
-http://www.jstatsoft.org/v40/i01/ [Tidy Data and Tidy Tools]:
-http://vimeo.com/33727555 [Cleaning Data with OpenRefine]:
-http://programminghistorian.org/lessons/cleaning-data-with-openrefine
-[reshape2]: http://cran.r-project.org/web/packages/reshape2/index.html
-[dplyr]: https://github.com/hadley/dplyr [plyr]:
-http://cran.r-project.org/web/packages/plyr/index.html [Introduction to
-Spatial Data and ggplot2]:
-http://spatial.ly/2013/12/introduction-spatial-data-ggplot2/ [ggmap:
-Spatial Visualization with ggplot2]:
-http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf [RGDAL]:
-http://cran.r-project.org/web/packages/rgdal/index.html [3]:
-http://chimera.labs.oreilly.com/books/1230000000345 [D3 documentation]:
-https://github.com/mbostock/d3/wiki [here]:
-https://github.com/mbostock/d3/wiki/Gallery [4]:
-http://bl.ocks.org/mbostock
+You will present your final projects, with an emphasis on both their
+code and historical interpretations. **Final projects are due by 6 p.m.
+on December 10.**
 
   [Linux and the Unix Philosophy]: http://magik.gmu.edu/cgi-bin/Pwebrecon.cgi?BBID=3366870
   [The Linux Command Line: A Complete Introduction]: http://linuxcommand.org/tlcl.php
@@ -360,7 +385,12 @@ http://bl.ocks.org/mbostock
   [API for the American Converts Database]: http://americanconverts.org/api
   [items page]: http://americanconverts.org/api/items?pretty_print
   [Omeka REST API documentation]: http://omeka.readthedocs.org/en/latest/Reference/api/
+  [ch. 5]: http://eloquentjavascript.net/05_higher_order.html
+  [ch. 12]: http://eloquentjavascript.net/12_browser.html
+  [ch. 13]: http://eloquentjavascript.net/13_dom.html
+  [Interactive Data Visualization for the Web]: http://chimera.labs.oreilly.com/books/1230000000345
   [2]: http://chimera.labs.oreilly.com/books/1230000000345/ch04.html
+  [3]: http://chimera.labs.oreilly.com/books/1230000000345/ch05.html
   [Thinking with Joins]: http://bost.ocks.org/mike/join/
   [bl.ocks]: http://bl.ocks.org/
   [Google Developers' introduction to R]: https://www.youtube.com/playlist?list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP
@@ -370,3 +400,43 @@ http://bl.ocks.org/mbostock
   [ggplot2 documentation]: http://docs.ggplot2.org/current/
   [guide here]: http://rmarkdown.rstudio.com/
   [RPubs]: http://rpubs.com/
+  [Tidy Data and Tidy Tools]: http://vimeo.com/33727555
+  [Tidy Data]: http://vita.had.co.nz/papers/tidy-data.pdf
+  [Reshaping Data in R]: http://vita.had.co.nz/papers/reshape-scgn.html
+  [The Split-Combine-Apply Strategy for Data Analysis]: http://www.jstatsoft.org/v40/i01/
+  [tidyr]: http://cran.r-project.org/web/packages/tidyr/index.html
+  [dplyr]: http://cran.r-project.org/web/packages/dplyr/index.html
+  [reshape2]: http://cran.r-project.org/web/packages/reshape2/index.html
+  [plyr]: http://cran.r-project.org/web/packages/plyr/index.html
+  [Cleaning Data with OpenRefine]: http://programminghistorian.org/lessons/cleaning-data-with-openrefine
+  [Introduction to Spatial Data and ggplot2]: http://spatial.ly/2013/12/introduction-spatial-data-ggplot2/
+  [Working with Geospatial Data]: http://mazamascience.com/WorkingWithData/?p=1277
+  [Working with Geospatial Data (and ggplot2)]: http://mazamascience.com/WorkingWithData/?p=1494
+  [sp]: http://cran.r-project.org/web/packages/sp/index.html
+  [rgdal]: http://cran.r-project.org/web/packages/rgdal/index.html
+  [rgeos]: http://cran.r-project.org/web/packages/rgeos/index.html
+  [geonames]: http://cran.r-project.org/web/packages/geonames/
+  [ggmap]: http://cran.r-project.org/web/packages/ggmap/index.html
+  [GDAL/OGR]: http://www.gdal.org/
+  [EPSG 4326/WGS 84]: http://spatialreference.org/ref/epsg/wgs-84/
+  [Macroanalysis]: http://magik.gmu.edu/cgi-bin/Pwebrecon.cgi?BBID=3547073
+  [Document Similarity with R]: http://fredgibbs.net/tutorials/tutorial/document-similarity-with-r/
+  [The Historian's Macroscope]: http://www.themacroscope.org/
+  [topic-modeling issue]: http://journalofdigitalhumanities.org/2-1/
+  [MALLET]: http://cran.r-project.org/web/packages/mallet/index.html
+  [tm]: http://cran.r-project.org/web/packages/tm/index.html
+  [More Networks in the Humanities]: https://dhs.stanford.edu/visualization/more-networks/
+  [Demystifying Networks, Parts I & II]: http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/
+  [statnet]: http://cran.r-project.org/web/packages/statnet/index.html
+  [sna]: http://cran.r-project.org/web/packages/sna/index.html
+  [network]: http://cran.r-project.org/web/packages/network/index.html
+  [Let's Make a Bar Chart]: http://bost.ocks.org/mike/bar/
+  [Let's Make a Map]: http://bost.ocks.org/mike/map/
+  [Let's Make a Bubble Map]: http://bost.ocks.org/mike/bubble-map/
+  [D3 documentation]: https://github.com/mbostock/d3/wiki
+  [D3 gallery]: https://github.com/mbostock/d3/wiki/Gallery
+  [Ruby on Rails]: http://rubyonrails.org/
+  [Sinatra]: http://www.sinatrarb.com/
+  [Python]: https://www.python.org/
+  [Ruby]: https://www.ruby-lang.org/en/
+  [PHP]: http://php.net/
