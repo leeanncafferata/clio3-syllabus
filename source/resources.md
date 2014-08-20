@@ -62,6 +62,9 @@ to edit this page to add your own resources.
 -   Jose Quesada, "[R: The Good Parts][]."
 -   Christopher Gandrud, *[Reproducible Research with R and RStudio][]*
     (Chapman and Hall, 2013).
+-   The [Use R!][] series of books from Springer is available as
+    DRM-free e-books via the Mason libraries.
+-   Jim Albert and Maria Rizzo, *[R by Example][]* (Springer, 2012).
 
 ## JavaScript
 
@@ -99,6 +102,8 @@ to edit this page to add your own resources.
   [Introduction to Debugging in R]: http://vimeo.com/99375765
   [R: The Good Parts]: http://hackerretreat.com/r-good-parts/
   [Reproducible Research with R and RStudio]: http://christophergandrud.github.io/RepResR-RStudio/
+  [Use R!]: http://link.springer.com.mutex.gmu.edu/search?facet-series=%226991%22&facet-content-type=%22Book%22
+  [R by Example]: http://link.springer.com.mutex.gmu.edu/book/10.1007/978-1-4614-1365-3
   [Eloquent JavaScript: A Modern Introduction to Programming]: http://eloquentjavascript.net/
   [list of free books about JavaScript]: http://jsbooks.revolunet.com/
   [The Cathedral and the Bazaar]: http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/
