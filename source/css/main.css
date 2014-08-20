@@ -443,3 +443,14 @@ th, td {
   padding: 0.25rem 2rem 0.25rem 2rem;
   text-align: left;
 }
+
+#back-link {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 10px;
+}
+
+#back-link a {
+  text-decoration: none;
+}
