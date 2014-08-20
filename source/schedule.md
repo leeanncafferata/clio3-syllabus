@@ -216,7 +216,7 @@ tidied. Can you also apply this technique to some data you have gathered
 for your research? Publish your input, output, and code files on GitHub
 and your explanation of the process as an Rpubs document.
 
-## Oct. 15: Sp in R
+## Oct. 15: Spatial Analysis in R
 
 How to make maps and perform other kinds of spatial analysis.
 
