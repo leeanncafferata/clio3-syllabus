@@ -170,11 +170,12 @@ visualizations.
     Norman Matloff, *The Art of R Programming: A Tour of Statistical
     Software Design* (No Starch Press, 2011) or of Hadley Wickham,
     *[Advanced R][]*.
--   Read Hadley Wickham, *ggplot2: Elegant Graphics for Data Analysis*
-    (Springer, 2009), chs. 1--5. For the theory behind ggplot, look at
-    Leland Wilkinson, *The Grammar of Graphics*, 2nd ed. (Springer,
-    2005). You may find Winston Chang, *[R Graphics Cookbook][]*,
-    appendix A, chs. 1--4, a useful introduction to ggplot.
+-   Read Hadley Wickham, *[ggplot2: Elegant Graphics for Data
+    Analysis][]* (Springer, 2009), chs. 1--5. For the theory behind
+    ggplot, look at Leland Wilkinson, *[The Grammar of Graphics][]*, 2nd
+    ed. (Springer, 2005). You may find Winston Chang, *[R Graphics
+    Cookbook][]*, appendix A, chs. 1--4, a useful introduction to
+    ggplot.
 -   Browse the [ggplot2 documentation][].
 
 ### Exercises
@@ -223,7 +224,7 @@ How to make maps and perform other kinds of spatial analysis.
 ### Reading
 
 -   Read Roger S. Bivand, Edzer Pebesma, and Virgilio Gómez-Rubio,
-    *Applied Spatial Data Analysis with R* (Springer, 2013).
+    *[Applied Spatial Data Analysis with R][]* (Springer, 2013).
 
 -   Read Robin Lovelace and James Cheshire, "[Introduction to Spatial
     Data and ggplot2][]," Spatial.ly, Dec. 9, 2013.
@@ -251,9 +252,10 @@ textual analysis.
 
 ### Reading
 
--   Read Matthew Jockers, *Text Analysis with R for Students of
-    Literature* (Springer, 2014). You may also wish to consult Matthew
-    Jockers, *[Macroanalysis][]* (University of Illinois Press, 2013).
+-   Read Matthew Jockers, *[Text Analysis with R for Students of
+    Literature][]* (Springer, 2014). You may also wish to consult
+    Matthew Jockers, *[Macroanalysis][]* (University of Illinois Press,
+    2013).
 -   Read Fred Gibbs, "[Document Similarity with R][],"
 -   Read the text mining and topic modeling sections sections of Shawn
     Graham, Ian Milligan, and Scott Weingart, *[The Historian's
@@ -286,8 +288,8 @@ you name it.
 
 ### Reading
 
--   Read Eric D. Kolaczyk and Gábor Csárdi, *Statistical Analysis of
-    Network Data with R* (Springer, 2014).
+-   Read Eric D. Kolaczyk and Gábor Csárdi, *[Statistical Analysis of
+    Network Data with R][]* (Springer, 2014).
 -   Read the networks sections of Shawn Graham, Ian Milligan, and Scott
     Weingart, *[The Historian's Macroscope][]*.
 -   Read Elijah Meeks, "[More Networks in the Humanities][]."
@@ -411,6 +413,8 @@ on December 10.**
   [Google Developers' introduction to R]: https://www.youtube.com/playlist?list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP
   [R Twotorials]: http://www.twotorials.com/
   [Advanced R]: http://adv-r.had.co.nz/
+  [ggplot2: Elegant Graphics for Data Analysis]: http://link.springer.com.mutex.gmu.edu/book/10.1007/978-0-387-98141-3
+  [The Grammar of Graphics]: http://link.springer.com.mutex.gmu.edu/book/10.1007/0-387-28695-0
   [R Graphics Cookbook]: http://www.cookbook-r.com/Graphs/
   [ggplot2 documentation]: http://docs.ggplot2.org/current/
   [guide here]: http://rmarkdown.rstudio.com/
@@ -424,6 +428,7 @@ on December 10.**
   [reshape2]: http://cran.r-project.org/web/packages/reshape2/index.html
   [plyr]: http://cran.r-project.org/web/packages/plyr/index.html
   [Cleaning Data with OpenRefine]: http://programminghistorian.org/lessons/cleaning-data-with-openrefine
+  [Applied Spatial Data Analysis with R]: http://link.springer.com.mutex.gmu.edu/book/10.1007/978-1-4614-7618-4
   [Introduction to Spatial Data and ggplot2]: http://spatial.ly/2013/12/introduction-spatial-data-ggplot2/
   [Working with Geospatial Data]: http://mazamascience.com/WorkingWithData/?p=1277
   [Working with Geospatial Data (and ggplot2)]: http://mazamascience.com/WorkingWithData/?p=1494
@@ -434,12 +439,14 @@ on December 10.**
   [ggmap]: http://cran.r-project.org/web/packages/ggmap/index.html
   [GDAL/OGR]: http://www.gdal.org/
   [EPSG 4326/WGS 84]: http://spatialreference.org/ref/epsg/wgs-84/
+  [Text Analysis with R for Students of Literature]: http://link.springer.com.mutex.gmu.edu/book/10.1007/978-3-319-03164-4
   [Macroanalysis]: http://magik.gmu.edu/cgi-bin/Pwebrecon.cgi?BBID=3547073
   [Document Similarity with R]: http://fredgibbs.net/tutorials/tutorial/document-similarity-with-r/
   [The Historian's Macroscope]: http://www.themacroscope.org/
   [topic-modeling issue]: http://journalofdigitalhumanities.org/2-1/
   [MALLET]: http://cran.r-project.org/web/packages/mallet/index.html
   [tm]: http://cran.r-project.org/web/packages/tm/index.html
+  [Statistical Analysis of Network Data with R]: http://link.springer.com.mutex.gmu.edu/book/10.1007/978-0-387-88146-1
   [More Networks in the Humanities]: https://dhs.stanford.edu/visualization/more-networks/
   [Demystifying Networks, Parts I & II]: http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/
   [statnet]: http://cran.r-project.org/web/packages/statnet/index.html
