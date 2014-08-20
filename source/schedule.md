@@ -329,6 +329,11 @@ The basics of a powerful visualization library for the web.
 
 From D3 basics to D3 for history.
 
+### Reading
+
+No assigned reading, but you may find Elijah Meeks, *[D3.js in
+Action][]* (Manning, 2014) useful for advanced D3.
+
 ### Exercises
 
 Over the course of the semester we have written programs to do many
@@ -457,6 +462,7 @@ on December 10.**
   [Let's Make a Bubble Map]: http://bost.ocks.org/mike/bubble-map/
   [D3 documentation]: https://github.com/mbostock/d3/wiki
   [D3 gallery]: https://github.com/mbostock/d3/wiki/Gallery
+  [D3.js in Action]: http://manning.com/meeks/
   [Ruby on Rails]: http://rubyonrails.org/
   [Sinatra]: http://www.sinatrarb.com/
   [Python]: https://www.python.org/
