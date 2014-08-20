@@ -170,11 +170,11 @@ visualizations.
     Norman Matloff, *The Art of R Programming: A Tour of Statistical
     Software Design* (No Starch Press, 2011) or of Hadley Wickham,
     *[Advanced R][]*.
--   Read Hadley Wickham, *ggplot2: Elegant Graphics for Data Analysis*,
-    chs. 1--5. For the theory behind ggplot, look at Leland Wilkinson,
-    *The Grammar of Graphics*, 2nd ed. (Springer, 2005). You may find
-    Winston Chang, *[R Graphics Cookbook][]*, appendix A, chs. 1--4, a
-    useful introduction to ggplot.
+-   Read Hadley Wickham, *ggplot2: Elegant Graphics for Data Analysis*
+    (Springer, 2009), chs. 1--5. For the theory behind ggplot, look at
+    Leland Wilkinson, *The Grammar of Graphics*, 2nd ed. (Springer,
+    2005). You may find Winston Chang, *[R Graphics Cookbook][]*,
+    appendix A, chs. 1--4, a useful introduction to ggplot.
 -   Browse the [ggplot2 documentation][].
 
 ### Exercises
