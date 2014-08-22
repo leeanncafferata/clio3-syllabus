@@ -5,7 +5,11 @@ source: source
 destination: public
 
 # Build settings
-markdown: kramdown
+plugins: plugins
+markdown: pandoc
+pandoc:
+  extensions:
+    - smart
 permalink: pretty
 lsi: false
 
