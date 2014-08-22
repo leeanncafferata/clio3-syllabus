@@ -36,6 +36,9 @@ to edit this page to add your own resources.
     available for download free of charge.
 -   [Association of Religion Data Archives][].
 -   [Historical Demographics of US Religion][]
+-   [Project Gutenburg][] has plain-text versions of many public domain
+    books.
+-   [Project GITenberg][] has many of the same book available via Git.
 
 ## Learning How to Program
 
@@ -94,6 +97,8 @@ to edit this page to add your own resources.
   [Geonames]: http://www.geonames.org/
   [Association of Religion Data Archives]: http://www.thearda.com/
   [Historical Demographics of US Religion]: https://github.com/lmullen/demographics-religion
+  [Project Gutenburg]: http://www.gutenberg.org/
+  [Project GITenberg]: https://gitenberg.github.io/
   [The Programming Historian]: http://programminghistorian.org/
   [Structure and Interpretation of Computer Programs]: https://mitpress.mit.edu/sicp/full-text/book/book.html
   [Write Great Code]: http://www.nostarch.com/greatcode.htm
