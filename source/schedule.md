@@ -73,8 +73,7 @@ code. [GNU Make][] helps automate and reproduce your results.
     with a link to your personal website, as well as your GitHub user
     name and a link to your GitHub user profile. Feel free to include
     your Twitter user name and link if you like. (A guide to
-    [Markdown][] if you need it.) Also add your name and the topic of
-    your tutorial to the schedule (`source/schedule.md`).
+    [Markdown][] if you need it.) 
 -   Create a minimal Makefile. This Makefile should take a text file
     (provided by you) and find and replace words of your choosing to a
     new text file. (Hint:
