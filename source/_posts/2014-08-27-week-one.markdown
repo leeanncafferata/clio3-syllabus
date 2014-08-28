@@ -1,0 +1,173 @@
+---
+layout: post
+title: 'Week 1: Unix'
+...
+
+## Introductions
+
+-   Introductions
+-   Syllabus
+-   [DH Methods in R][]
+-   Data sets
+-   [Survey][]
+-   DH as I see it
+-   The challenge in front of you
+
+## Additional techniques and languages
+
+Sign up for one of these
+
+-   Ruby or Python
+-   XML, Xpath, TEI, Nokogiri/Beautiful Soup
+-   C or Java
+-   PHP
+-   SQL and MySQL
+-   Debugging and/or refactoring
+-   Testing
+-   Stats for historians
+-   Plugins
+-   Ruby on Rails or Sinata
+-   Dat
+-   Image processing
+-   A portion of any of the topics on the syllabus
+
+## Unix Philosophy
+
+We are interested in \*nix as the operating system which underlies most
+humanities computing. Unix or one of its derivatives is the operating
+system which runs most of the programs, whether on the server or on
+personal computers, which digital historians write. Even, more we are
+interested in the ideas about computing which comprise the "Unix
+philosophy." These have most clearly been expressed by Mike Gancarz in
+*Linux and the Unix Philosophy*.
+
+> 1.  Small is beautiful. Small things have tremendous advantages over
+>     their larger counterparts. Among these is the ability to combine
+>     with other small things in unique and useful ways, ways often
+>     unforeseen by the original designer.
+> 2.  Make each program do one thing well. By focusing on a single task,
+>     a program can eliminate much extraneous code that often results in
+>     excess overhead, unnecessary complexity, and a lack of
+>     flexibility.
+> 3.  Build a prototype as soon as possible. Most people would agree
+>     that prototyping is a valuable element of any project. But whereas
+>     prototyping is only a small part of the design phase under other
+>     methodologies, under Unix it is the principal vehicle for
+>     generating an effective design.
+> 4.  Choose portability over efficiency. When Unix broke new ground as
+>     the first portable operating system of any significance, it was
+>     big news. Today portability is taken for granted as a necessity in
+>     any modern software design, an example of a tenet that has gained
+>     wide acceptance on other systems besides Unix.
+> 5.  Store data in flat text files. The choice between portability and
+>     efficiency addresses the value of portable code. Portable data is
+>     at least as important as-if not more important than-portable code.
+>     Portable data is the often-neglected part of the portability
+>     formula.
+> 6.  Use software leverage to your advantage. Many programmers have
+>     only a superficial understanding of the importance of reusable
+>     code modules. Code reuse helps one take advantage of software
+>     leverage, a powerful concept that some Unix developers use to
+>     create numerous applications in a comparatively short time.
+> 7.  Use shell scripts to increase leverage and portability. Shell
+>     scripts are double-edged swords for enhancing both software
+>     leverage and portability in a design. Whenever possible, writing a
+>     script instead of a complete C program is the way to go.
+> 8.  Avoid captive user interfaces. Some commands have user interfaces
+>     known to Unix developers as "captive" user interfaces. These
+>     prevent the user from running other commands while the command is
+>     in use, effectively making the user a captive to the system for
+>     the duration of the command. In a graphical user interface world,
+>     such interfaces would be called "modal."
+> 9.  Make every program a filter. The fundamental nature of all
+>     software programs is that they only modify data; they do not
+>     create it. Therefore, they should be written to perform as filters
+>     since they are filters.
+
+We can add some other observations drawn from Gancarz:
+
+1.  Ethos of open software: runs everywhere, open source.
+2.  Assumed that the user of their software would be computer literate
+    from the start.
+
+ATT&T Bell Labs, "[The UNIX Operating System][]."
+
+<iframe width="480" height="360" src="//www.youtube.com/embed/tc4ROCJYbm0?rel=0" frameborder="0" allowfullscreen>
+</iframe>
+## Installation
+
+Install party!
+
+## Key Terminal Commands
+
+-   `--help` and `man` for help
+-   `cd` to change directories
+-   `ls` to list contents; `ls -l` for more information; `ls -a` for
+    hidden files
+-   `UP` and `DOWN` to find previous commands; `ctrl + r` for search
+-   `file` to check file type
+-   `less` to read files
+-   `open` or `xdg-open` to open
+-   `pwd` for print working directory
+-   `~` for home directory; `/` for root; `./` for current directory;
+    `../` for lower directory; `/dev/null` for the bit bucket
+-   `/tmp/` for temporary files
+-   `popd` and `pushd` for directory stack
+-   `mkdir` and `mkdir -p` to make directory; `rmdir` to remove it
+-   `touch` to touch or create file
+-   `mv` to move files
+-   `rm` to remove file; `rm -r` to remove recursively; `rm -f` to force
+    removal
+-   `bash` and `zsh` for shells
+-   `~/.zshrc` or `~./bash_profile` or `~/.bashrc` for configuration
+-   `/usr/bin/` and `/usr/local/bin/` for executables
+-   `export` for variables; `$` to access them
+-   `$PATH` for order of execution
+-   `*` and `?` for file globbing
+-   `wc` for counting words/lines/characters; `wc -w` and `wc -l`
+-   `sudo` for superpowers
+-   `cat` to join streams, concatenate
+-   `echo` to echo a variable or string
+-   `head` and `tail` and `tail -f` to look at start and end of files
+-   `sort` to sort
+-   `|` to pipe streams
+-   `>` to redirect to file
+-   `>>` to append to file
+-   `1>filename` to redirect stdout; `2>filename` for stderror; `-` for
+    stdin
+-   `&` to send to background; `ctrl+z` to halt; `fg` to resume; `bg` to
+    send to background and resume
+-   `ps -aux` to see running processes
+-   `grep` to search for files
+-   `which` to find executable
+-   `chmod` to change permissions; `chmod +x` to make executable
+-   `ruby -run -e httpd . -p 4000` for local server
+-   `python -m SimpleHTTPServer 8080` for local server
+-   `http://localhost/` or `http://localhost:8000` for local server
+-   `ctrl+c` to quit; `ctrl+d` for end of file
+-   `kill` to kill process; `kill -9` to kill it more
+-   `du -h` for file size
+-   `df -h` for disk usage
+-   `top` for processes
+-   `zip` to zip; `unzip` to unzip
+-   `curl -O` to download; `wget` to download a lot
+-   `ssh` for remote hosts
+-   `scp` and `rsync` for transferring files
+-   `sed` and `awk` for text manipulation
+-   `whoami` and `uname -a` for answers to life's tough questions
+-   `date` for date and time
+-   `ln -s` for symbolic links
+-   `brew install` on Mac and `sudo apt-get install` to install software
+-   `#!/usr/bin/mylanguage` vs `#!/usr/bin/env mylanguage` for scripts
+
+[Most used Linux commands][]
+
+## Preview of Next Week
+
+-   Version control
+-   Make
+
+  [DH Methods in R]: http://dh-r.lincolnmullen.com
+  [Survey]: https://docs.google.com/forms/d/12x79BgpoJdub41GlgFCKlFSJAPr7SRZG78yte7kzA3k/viewform
+  [The UNIX Operating System]: https://www.youtube.com/watch?v=tc4ROCJYbm0
+  [Most used Linux commands]: http://www.thegeekstuff.com/2010/11/50-linux-commands/
