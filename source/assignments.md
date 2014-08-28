@@ -34,7 +34,7 @@ At our first meeting you will pick from a list of programming techniques
 which are not yet on the syllabus. One week you will teach
 the class for 30--40 minutes about the technique. Your lesson should
 include an accompanying blog post with the necessary code and
-instructions. (*[The Programming Historian][]* will be a helpful model;
+instructions. *[The Programming Historian][]* will be a helpful model;
 you may eventually wish to submit your tutorial to the *Programming
 Historian's* peer review.
 
