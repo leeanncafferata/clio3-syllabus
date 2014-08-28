@@ -29,6 +29,7 @@ Sign up for one of these
 -   Ruby on Rails or Sinata
 -   Dat
 -   Image processing
+-   Packaging
 -   A portion of any of the topics on the syllabus
 
 ## Unix Philosophy
