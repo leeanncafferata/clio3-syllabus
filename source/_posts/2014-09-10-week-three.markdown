@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Week 3: Introduction to JavaScript'
+published: false
 ...
 
 Quicksort implementation in JavaScript to illustrate recursion.
