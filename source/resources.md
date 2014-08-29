@@ -82,6 +82,10 @@ to edit this page to add your own resources.
 
 -   Eric Steven Raymond, "[The Cathedral and the Bazaar][]."
 
+## APIs
+
+-   [httpbin][] for all possible results from an API
+
   [National Historical GIS]: http://nhgis.org
   [IPUMS-International]: http://international.ipums.org/international/
   [IPUMS-USA]: http://usa.ipums.org/usa/
@@ -116,3 +120,4 @@ to edit this page to add your own resources.
   [Eloquent JavaScript: A Modern Introduction to Programming]: http://eloquentjavascript.net/
   [list of free books about JavaScript]: http://jsbooks.revolunet.com/
   [The Cathedral and the Bazaar]: http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/
+  [httpbin]: http://httpbin.org/
