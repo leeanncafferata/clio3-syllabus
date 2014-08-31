@@ -18,7 +18,7 @@ Here is how to contribute to this syllabus.
 6.  Create a new branch for your changes:
     `git checkout -b my-new-branch-name`.
 7.  Make your changes and [commit them][]. [Follow the convention for
-    committ messages][].
+    commit messages][].
 8.  Push your changes to your forked repository: `git push origin my-branch-name`
 9.  Open a [pull request][].
 10. Wait to hear from me that I've merged in your changes.
@@ -38,6 +38,6 @@ original course website.
   [Fork this repository]: https://help.github.com/articles/fork-a-repo
   [Clone the repository to your own computer]: http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository
   [commit them]: http://gitref.org/basic/
-  [Follow the convention for committ messages]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+  [Follow the convention for commit messages]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
   [pull request]: https://help.github.com/articles/creating-a-pull-request
   [CC-BY]: http://creativecommons.org/licenses/by/4.0/
