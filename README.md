@@ -19,7 +19,7 @@ Here is how to contribute to this syllabus.
     `git checkout -b my-new-branch-name`.
 7.  Make your changes and [commit them][]. [Follow the convention for
     committ messages][].
-8.  Push your changes to your forked repository: `git push`
+8.  Push your changes to your forked repository: `git push origin my-branch-name`
 9.  Open a [pull request][].
 10. Wait to hear from me that I've merged in your changes.
 
