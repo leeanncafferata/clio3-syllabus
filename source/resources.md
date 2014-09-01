@@ -86,6 +86,10 @@ to edit this page to add your own resources.
 
 -   [httpbin][] for all possible results from an API
 
+## Natural Language
+
+-   [Natural Language Processing for the Working Programmer][]
+
   [National Historical GIS]: http://nhgis.org
   [IPUMS-International]: http://international.ipums.org/international/
   [IPUMS-USA]: http://usa.ipums.org/usa/
@@ -121,3 +125,4 @@ to edit this page to add your own resources.
   [list of free books about JavaScript]: http://jsbooks.revolunet.com/
   [The Cathedral and the Bazaar]: http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/
   [httpbin]: http://httpbin.org/
+  [Natural Language Processing for the Working Programmer]: http://nlpwp.org/book/
