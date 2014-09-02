@@ -16,3 +16,5 @@ Example participant:
 [Anne Ladyem McDivitt](http://anneladyem.wordpress.com) | [amcdivitt](https://github.com/amcdivitt) at GitHub | @[anneladyem](https://twitter.com/anneladyem) on Twitter
 
 [George Oberle](http://georgeoberle.org/earlyrepublic/) | [goberle](https://github.com/georgeoberle/) at GitHub | @[goberle](https://twitter.com/goberle) on Twitter
+
+[Peter Jones](http://petercarrjones.com/) | [petercarrjones](https://github.com/petercarrjones/) at GitHub | @[petercarrjones](https://twitter.com/petercarrjones) on Twitter
